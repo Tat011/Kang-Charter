@@ -1,0 +1,1051 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME Kang Charter
+# Commission ask
+CMSNTextReject_Vengeful_KangCharter,CMSNTextRejectHostile,"$faction.id == kangcharter
+$faction.rel == VENGEFUL",,"""Are you really expected to be commissioned here after all the stunts you have pulled?
+
+Get lost.""",,
+CMSNTextReject_Hostile_KangCharter,CMSNTextRejectHostile,"$faction.id == kangcharter
+$faction.rel == HOSTILE",,"The $PersonRank looks at a console you can't see for a short time.
+
+""The Judiciary Executor council has deemed you a threat to the existence of the Charter, with all that implies.
+
+If you want to officially work for us you will need to completely turn your reputation around, a difficult objective but we are forgiving and you seem capable so I'd advise you get to it if your intentions are pure.""",,
+CMSNTextHasOther_Vengeful_KangCharter,CMSNTextHasOther,"$faction.id == kangcharter
+$faction.rel == VENGEFUL",,"""Surprisingly, we don't dwellers sent by $theOtherCommissionFaction to destabilize the Charter for their benefit, get lost.""",,
+CMSNTextHasOther_Hostile_KangCharter,CMSNTextHasOther,"$faction.id == kangcharter
+$faction.rel == HOSTILE",,"""We don't commission enemies of the state, even less when they are commissioned by $theOtherCommissionFaction.""",,
+CMSNTextHasOther_Inhospitable_KangCharter,CMSNTextHasOther,"$faction.id == kangcharter
+$faction.rel == INHOSPITABLE",,"The $PersonRank looks at a console you can't see for a short time.
+
+""Outsider, you are already commissioned by $theOtherCommissionFaction and you certainly don't meet the requirements either way. Do not waste my time.""",,
+CMSNTextHasOther_Suspicious_KangCharter,CMSNTextHasOther,"$faction.id == kangcharter
+$faction.rel == SUSPICIOUS",,"The $PersonRank looks at a console you can't see for a short time.
+
+""You are already commissioned by $theOtherCommissionFaction, outsider. We are not intersted in commissioning an outsider tied to the interests of the sector at large. 
+
+If you want to be commissioned by us you must renounce $theOtherCommissionFaction and prove yourself a reliable asset.",,
+CMSNTextHasOther_Neutral_KangCharter,CMSNTextHasOther,"$faction.id == kangcharter
+$faction.rel == NEUTRAL",,"The $PersonRank looks at a console you can't see for a short time.
+
+""You are already commissioned by $theOtherCommissionFaction, we will not bring the irrelevant and violent politics of the sector here so you must renounce $theOtherCommissionFaction to officially work for us.
+
+This is a decision that will irrevocably change your fate so I'd advise thinking it over on your own time.""",,
+CMSNTextHasOther_Favorable_KangCharter,CMSNTextHasOther,"$faction.id == kangcharter
+$faction.rel == FAVORABLE",,"The $PersonRank looks at a console you can't see for a short time.
+
+""You are already commissioned by $theOtherCommissionFaction, regardless of your status here we are not going to commission someone who isn't willing to put the interests of the Charter first. 
+
+If you want to be commissioned by us then you must renounce the $theOtherCommissionFaction commission.
+
+This is a decision that will irrevocably change your fate so I'd advise thinking it over on your own time.""",,
+CMSNTextHasOther_Welcoming_KangCharter,CMSNTextHasOther,"$faction.id == kangcharter
+$faction.rel == WELCOMING",,"The $PersonRank looks at a console you can't see for a short time.
+
+""You are already commissioned by $theOtherCommissionFaction, regardless of your status here we are not going to commission someone who isn't willing to put the interests of the Charter first. 
+
+If you want to be commissioned by us then you must renounce the $theOtherCommissionFaction commission.
+
+This is a decision that will irrevocably change your fate so I'd advise thinking it over on your own time.""",,
+CMSNTextHasOther_Friendly_KangCharter,CMSNTextHasOther,"$faction.id == kangcharter
+$faction.rel == FRIENDLY",,"""$playerName, you are already commissioned by $theOtherCommissionFaction, regardless of your status here we are not going to commission someone who isn't willing to put the interests of the Charter first. 
+
+If you want to be commissioned by us then you must renounce the $theOtherCommissionFaction commission.
+
+This is a decision that will irrevocably change your fate so I'd advise thinking it over on your own time.""",,
+CMSNTextHasOther_Cooperative_KangCharter,CMSNTextHasOther,"$faction.id == kangcharter
+$faction.rel == COOPERATIVE",,"""$playerName, you are already commissioned by $theOtherCommissionFaction, regardless of your status here we are not going to commission someone who isn't willing to put the interests of the Charter first. 
+
+If you want to be commissioned by us then you must renounce the $theOtherCommissionFaction commission.
+
+Considering all that you've done for us this should be an easy decision.""",,
+CMSNTextUnsuited_KangCharter,CMSNTextUnsuited,$faction.id == kangcharter,,"The $PersonRank looks at a console you can't see for a short time.
+
+""You are not notable enough to the Charter to qualify for a commission, we don't commission just any third party so you need to acquire a reputation before applying.
+
+I'd recommend developing a contact here that can offer you jobs, it's the most stable way.""",,
+CMSNTextUnsuited_Neutral_KangCharter,CMSNTextUnsuited,"$faction.id == kangcharter
+$faction.rel == NEUTRAL",,"The $PersonRank looks at a console you can't see for a short time.
+
+""You have aquired a bit of a reputation but for the Charter to consider you for a commission you need to show us you are very reliable, this is a long term commitment after all.
+
+I'd recommend developing a contact here that can offer you jobs, it's the most stable way.""",,
+CMSNTextSuitedPart1_KangCharter,CMSNTextSuitedPart1,$faction.id == kangcharter,,"The $PersonRank looks at a console you can't see for a short time.
+
+""Your willingness to collaborate with the Kang Charter has been noted and you certainly meet the requirements.
+
+A commission with us would entail you occasionally dispatching of enemies we cannot engage directly, these are typically factions that threaten our sovereignty or individuals judged as high instability targets.
+
+There's also a certain... threat to the continued existence of the Charter, I'm sure you are acquainted of it, but taking it on is not an expectation.
+
+You can resign this commission later down the line if you so choose but we expect you to remain loyal.""",,
+CMSNTextSuitedPart2_KangCharter,CMSNTextSuitedPart2,$faction.id == kangcharter,,"""Are you confident in your ability to serve our cause? If so, sign here.""",,
+# Commission Followup
+CMSNTextWelcomePart1_KangCharter,CMSNTextWelcomePart1,$faction.id == kangcharter,,"""Welcome aboard, captain. May your lights shine bright against the darkness.
+
+Be sure to visit Helm to get acquainted with our latest military hardware.""",,
+CMSNTextWelcomePart2_KangCharter,CMSNTextWelcomePart2,$faction.id == kangcharter,,"""Anything else you require?""",,
+CMSNTextChangeMind_KangCharter,CMSNTextChangeMind,$faction.id == kangcharter,,"""Well it IS a high risk job and as such, not for everyone.""",,
+CMSNResignAskToConfirm_KangCharter,CMSNResignAskToConfirm,$faction.id == kangcharter,,"The $PersonRank raises an eyebrow
+
+""Turning your back on the Charter is not a decision that we will look kindly to, but you are free to leave if you so choose.""",,
+CMSNResignConfirmed_KangCharter,CMSNResignConfirmed,$faction.id == kangcharter,,"""As of now you are no longer employed by the Sovereign Kang Charter of Orion, we wish you no harm but you shouldn't have sought our commission in the first place.""",,
+CMSNResignCancelled_KangCharter,CMSNResignCancelled,$faction.id == kangcharter,,"""Then you have nothing to worry about.""",,
+# Fleet encounter
+greeting_Cooperative_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$faction.friendlyToPlayer
+$faction.rel == COOPERATIVE","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""You reach out once again $playerName? Communication with you is always welcome.""
+OR
+""$playerName!
+
+To what do we owe this communication?""
+OR
+""This is $personRank $personName. Do you need assistance from the Charter $playerName?""
+OR
+""Encountering you is a much welcome respite from the void, $playerName.""
+OR
+""May the abyssal lights light your path, $playerName.""
+OR
+""We stand with you, $playerName.""
+OR
+""Friendly faces are rare to the Charter, do you have something to discuss?""
+OR
+""$playerName! We are big fans of your work. Keep doing what you are doing.""
+OR
+""May your lights shine bright against the darkness, $playerName.""",,
+greeting_Friendly_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$faction.friendlyToPlayer
+$faction.rel == FRIENDLY","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""You reach out once again $playerName? Communication with you is always welcome.""
+OR
+""You are $playerName, yes?
+
+Our ports are open to you, should you seek them out.""
+OR
+""This is $personRank $personName. Do you need assistance from the Charter?""
+OR
+""Encountering a friendly face is a much welcome respite from the void, $playerName.""
+OR
+""May the abyssal lights light your path, outsider.""
+OR
+""We stand with you, outsider.""
+OR
+""$playerName.""
+
+The $personRank nods.
+OR
+""Friendly faces are rare to the Charter, do you have something to discuss?""
+OR
+""$playerName! We are big fans of your work. Keep doing what you are doing.""
+OR
+""May your lights shine bright against the darkness, $playerName.""",,
+greeting_FriendlyNeutral_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""You reach out once again $playerName? Communication with you is always welcome.""
+OR
+""You are $playerName, yes?
+
+Our ports are open to you, should you seek them out.""
+OR
+""This is $personRank $personName. Do you need assistance from the Charter?""
+OR
+""Encountering you is a much welcome respite from the void, $playerName.""
+OR
+""May the abyssal lights light your path, $playerName.""
+OR
+""$playerName.""
+
+The $personRank nods.
+OR
+""Friendly faces are rare to the Charter, do you have something to discuss?""
+OR
+""May your lights shine bright against the darkness, $playerName.""",,
+greeting_Neutral_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$faction.neutralToPlayer","$menuState = fleetConvMain 0 
+FireAll PopulateOptions","""You are communing with $personRank $personName of the Kang Charter, do you have business with us?""
+OR
+""Outsider, state your business.""
+OR
+""May the abyssal lights light your path, traveler.""
+OR
+""You are... $playerName. What brings you to the Charter?""
+OR
+""Have you sought us out, outsider? We of the Kang Charter welcome those fleeing the destruction of the sector.""
+OR
+""The Sovereign Kang Charter of Orion acknowledges you.""
+OR
+""Do you have something to discuss outsider?""",,
+greeting_HostileNeutral_Weaker_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Cease your approach immediately, outsider.""
+OR
+""The Judiciary Executor council will hear of this transgression.""
+OR
+""We don't fear you, outsider. Only the infinite void is worthy of such reaction.""
+OR
+""Stand down, enemy of the Charter, there's no need for senseless violence.""
+OR
+""We came to the abyss to escape the pointless violence of the sector, and yet it follows us wherever we go.""
+OR
+""The Kang Charter has survived threats that dwarf your capabilities, outsider.""
+OR
+""May the abyss swallow you whole, outsider.""",cutCommLink:Cut the comm link,
+greetingHostile_Weaker_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength < 0
+$faction.rel == HOSTILE",$entity.ignorePlayerCommRequests = true 1,"""Cease your approach immediately, $playerName.""
+OR
+""The Judiciary Executor council will hear of this transgression.""
+OR
+""We don't fear you, $playerName. Only the infinite void is worthy of such reaction.""
+OR
+""Stand down, enemy of the Charter, there's no need for senseless violence.""
+OR
+""We came to the abyss to escape the pointless violence of the sector, and yet it follows us wherever we go.""
+OR
+""The Kang Charter has survived threats that dwarf your capabilities, $playerName.""
+OR
+""May the abyss swallow you whole, $playerName.""",cutCommLink:Cut the comm link,
+greeting_Vengeful_Weaker_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength < 0
+$faction.rel == VENGEFUL",$entity.ignorePlayerCommRequests = true 1,"""Have you no mercy, dweller?""
+OR
+""One day you will get what is coming to you.""
+OR
+""We don't fear you, dweller. Only the infinite void is worthy of such reaction.""
+OR
+""You fancy yourself a big shot? Know that no one escape judgement.""
+OR
+""We came to the abyss to escape the pointless violence of the sector, and yet it follows us wherever we go.""
+OR
+""The Kang Charter has survived threats that dwarf your capabilities, dweller.""
+OR
+""May the abyss swallow you whole, dweller.""",cutCommLink:Cut the comm link,
+greetingHostileNeutral_WeakerDefiant_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding
+",$entity.ignorePlayerCommRequests = true 1,"""Outsider, today we battle. I will not retreat.""
+OR
+""The Judiciary Executor council will hear of this transgression.""
+OR
+""Outsider! You threaten the Kang Charter. That will not stand for as long as I breathe.""
+OR
+""The void will watch us do battle, outsider, but only you will see its face.""
+OR
+""Your path of violence leads only to loss, outsider.""
+OR
+""We bow to no one, the Charter will be free! Always!""
+OR
+""All that we have built will not be destroyed by you, outsider.""
+OR
+""From a dead star we built a world, outsider. That world will live on no matter what you do.""",cutCommLink:Cut the comm link,
+greetingHostile_WeakerDefiant_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding
+$faction.rel == HOSTILE",$entity.ignorePlayerCommRequests = true 1,"""$playerName, today we battle. I will not retreat.""
+OR
+""The Judiciary Executor council will hear of this transgression.""
+OR
+""$playerName! You threaten the Kang Charter. That will not stand for as long as I breathe.""
+OR
+""The void will watch us do battle, $playerName, but only you will see its face.""
+OR
+""Your path of violence leads only to loss, $playerName.""
+OR
+""We bow to no one, the Charter will be free! Always!""
+OR
+""All that we have built will not be destroyed by you, $playerName.""
+OR
+""From a dead star we built a world, $playerName. That world will live on no matter what you do.""",cutCommLink:Cut the comm link,
+greetingVengeful_WeakerDefiant_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding
+$faction.rel == VENGEFUL",$entity.ignorePlayerCommRequests = true 1,"""Dweller! today we battle. I will not retreat.""
+OR
+""We have nothing to discuss.""
+OR
+""Dweller! You threaten the Kang Charter. That will not stand for as long as I breathe.""
+OR
+""The void will watch us do battle, dweller, but only you will see its face.""
+OR
+""Your path of violence leads only to loss, dweller.""
+OR
+""We bow to no one, the Charter will be free! Always!""
+OR
+""All that we have built will not be destroyed by you, dweller.""
+OR
+""From a dead star we built a world, outsider. That world will live on no matter what you do.""",cutCommLink:Cut the comm link,
+greetingHostile_Neutral_Even_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength == 0",$entity.ignorePlayerCommRequests = true 1,"""We are evenly matched, outsider. This will be a true test of skill.""",cutCommLink:Cut the comm link,
+greetingHostile_Even_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength == 0
+$faction.rel == HOSTILE",$entity.ignorePlayerCommRequests = true 1,"""We are evenly matched, $playerName. This will be a true test of skill.""",cutCommLink:Cut the comm link,
+greetingVengeful_Even_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength == 0
+$faction.rel == VENGEFUL",$entity.ignorePlayerCommRequests = true 1,"""We are evenly matched, dweller. This will be a true test of skill.""",cutCommLink:Cut the comm link,
+greetingHostileNeutral_Stronger_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength > 0",$entity.ignorePlayerCommRequests = true 1,"""Outsider, today we battle.""
+OR
+""The void will watch us do battle, outsider, but only you will see its face.""
+OR
+""The void calls your name, outsider.""
+OR
+""The void will claim you, $playerName. Prepare yourself.""""
+OR
+""We bow to no one, not the League, not the path, not Volcov and especially not you.""
+OR
+""In the name of the Sovereign Kang Charter of Orion, I will strike you down.""",cutCommLink:Cut the comm link,
+greetingHostile_Stronger_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength > 0
+$faction.rel == HOSTILE",$entity.ignorePlayerCommRequests = true 1,"""$playerName, today we battle.""
+OR
+""The void will watch us do battle, $playerName, but only you will see its face.""
+OR
+""The void calls your name, $playerName.""
+OR
+""$playerName, you are under arrest by order of the Judiciary Executor council of the Sovereign Kang Charter of Orion. Power down your ships immediately or we will open fire.""
+OR
+""$playerName, You threaten the Kang Charter. This ends now.""
+OR
+""The void will claim you, $playerName. Prepare yourself.""""
+OR
+""In the name of the Sovereign Kang Charter of Orion, I will strike you down.""
+OR
+""We bow to no one, not the Diktat, not the machines, not the PRV and especially not you.""
+OR
+""Your path of violence ends now.""
+OR
+""May Kang smile on this battle.""",cutCommLink:Cut the comm link,
+greetingVengeful_Stronger_KangCharter,OpenCommLink,"$faction.id == kangcharter
+$entity.isHostile
+$entity.relativeStrength > 0
+$faction.rel == VENGEFUL",$entity.ignorePlayerCommRequests = true 1,"""Dweller, today we battle for the fate of the Charter.""
+OR
+""The void will watch us do battle, dwellerr, but only you will see its face.""
+OR
+""The void calls your name, dweller.""
+OR
+""Dweller! You are under arrest by order of the Judiciary Executor council of the Sovereign Kang Charter of Orion. Power down your ships immediately or we will open fire!""
+OR
+""Dweller! You threaten the Kang Charter for the last time! This ends now.""
+OR
+""The void will claim you, dweller. Prepare yourself.""""
+OR
+""In the name of the Sovereign Kang Charter of Orion, I, $personName! will strike you down!""
+OR
+""We bow to no one, not the Hegemony, not the church, not Tri-Tachyon and especially not you.""
+OR
+""Your path of violence ends here and now!""
+OR
+""Lost to the chaos of the sector, you know only violence.""",cutCommLink:Cut the comm link,
+relLevel_Vengeful_KangCharter,RelationshipLevelDesc,"$faction.id == kangcharter
+$faction.rel == VENGEFUL",,The Judiciary Executor council has deemed you a threat to the continued existance of the Kang Charter and has instructed all Military Harbingers to consider you a priority target. Recovering your reputation at this point is exceedingly difficult.,,
+relLevel_Hostile_KangCharter,RelationshipLevelDesc,"$faction.id == kangcharter
+$faction.rel == HOSTILE",,The Judiciary Executor council has deemed you a felon and has authorized patrols to shoot your fleet down on sight. You are considered persona non grata on Norlem though certain individuals may still be willing to work with you under the table.,,
+relLevel_Inhospitable_KangCharter,RelationshipLevelDesc,"$faction.id == kangcharter
+$faction.rel == INHOSPITABLE",,This is the default state most factions have with the Charter on account of it being hidden and untrusting of outsiders. On Norlem traders won't trade with you and patrols will be watchful but they won't attack unless provoked. Kang officials probably don't even have you on file.,,
+relLevel_Suspicious_KangCharter,RelationshipLevelDesc,"$faction.id == kangcharter
+$faction.rel == SUSPICIOUS",,The Charter is open to trading with you and their patrols are less distrustful but that's as far as your relationship goes. various Sub Economic Directors have noted your willingness to assist are keeping an eye on you.,,
+relLevel_Neutral_KangCharter,RelationshipLevelDesc,"$faction.id == kangcharter
+$faction.rel == NEUTRAL",,"You have managed to break through the Charter's distrust, most of their officials who know you treat you with respect and officials consider you more reliable than the average independent.",,
+relLevel_Favorable_KangCharter,RelationshipLevelDesc,"$faction.id == kangcharter
+$faction.rel == FAVORABLE",,"The Kang Charter views you favorably, you may be an outsider but you are one of the few they want to interact with. By this point there's at least one Economic Director that has taken interest in your endeavours.",,
+relLevel_Welcoming_KangCharter,RelationshipLevelDesc,"$faction.id == kangcharter
+$faction.rel == WELCOMING",,"The Kang Charter views you very favourably, with quite a few individuals treating you as though you are a member. Most Charter citizens are happy when they see your fleet arrive at Norlem and you are given concessions that even citizens don't get.",,
+relLevel_Friendly_KangCharter,RelationshipLevelDesc,"$faction.id == kangcharter
+$faction.rel == FRIENDLY",,"The Kang Charter views you as one of their own, citizens celebrate your arrival and speculate on your location when you are not around. Pretty much every notable official knows about you, The Kang Counsil most certainly knows about you and views you favourably.",,
+relLevel_Cooperative_KangCharter,RelationshipLevelDesc,"$faction.id == kangcharter
+$faction.rel == COOPERATIVE",,"The Kang Charter views you as its most important ally, you are a recurring topic of conversation on official channels who speculate on your location when you are not around. The Kang Counsil considers you of great tactical importance.",,
+RelLevelMoreDescription_Trade_Suspicious_KangCharter,RelLevelMoreDescription,"$faction.id == kangcharter
+$player.numColonies > 0
+$faction.rel == SUSPICIOUS",,A tenuous trade agreement has been made between your colonies and the Charter.,,
+RelLevelMoreDescription_Trade_Neutral_KangCharter,RelLevelMoreDescription,"$faction.id == kangcharter
+$player.numColonies > 0
+$faction.rel == NEUTRAL",,A trade agreement has been made between your colonies and the Charter.,,
+RelLevelMoreDescription_Trade_Favorable_KangCharter,RelLevelMoreDescription,"$faction.id == kangcharter
+$player.numColonies > 0
+$faction.rel == FAVORABLE",,A solid trade agreement has been made between your colonies and the Charter.,,
+RelLevelMoreDescription_Trade_Welcoming_KangCharter,RelLevelMoreDescription,"$faction.id == kangcharter
+$player.numColonies > 0
+$faction.rel == WELCOMING",,The Kang Charter considers you a trusted trading partner.,,
+RelLevelMoreDescription_Trade_Friendly_KangCharter,RelLevelMoreDescription,"$faction.id == kangcharter
+$player.numColonies > 0
+$faction.rel == FRIENDLY",,You are the primary trading partner of the Kang Charter.,,
+RelLevelMoreDescription_Trade_Cooperative_KangCharter,RelLevelMoreDescription,"$faction.id == kangcharter
+$player.numColonies > 0
+$faction.rel == COOPERATIVE",,You are the primary trading partner of the Kang Charter.,,
+# AI Core turn in
+aiCores_turnInOptionSellFriendly_KangCharter,DialogOptionSelected,"$faction.id == kangcharter
+$option == aiCores_startTurnIn
+$faction.friendlyToPlayer",FireAll PopulateCoresTurnInOptions,"""Kang Charter doctrine requests us to place AI cores in containment, lest they fall into the hands of... you know what. We will compensate you for any cores you turn in, $playerName.""",,
+aiCores_turnInOptionSell_KangCharter,DialogOptionSelected,"$faction.id == kangcharter
+$option == aiCores_startTurnIn",FireAll PopulateCoresTurnInOptions,"""Kang Charter doctrine requests us to dispose of AI cores, lest they fall into the hands of... you know what. We will compensate you for any cores you turn in, outsider.""",,
+aiCores_turnInOptionSellHostile_KangCharter,DialogOptionSelected,"$faction.id == kangcharter
+$option == aiCores_startTurnIn
+$faction.hostileToPlayer
+$faction.rel == HOSTILE",FireAll PopulateCoresTurnInOptions,"""Kang Charter doctrine requests us to dispose of AI cores, lest they fall into the hands of... you know what. We will compensate you for any cores you turn in, dweller, despite your status as a wanted criminal.""",,
+aiCores_turnInOptionSellVengeful_KangCharter,DialogOptionSelected,"$faction.id == kangcharter
+$option == aiCores_startTurnIn
+$faction.hostileToPlayer
+$faction.rel == VENGEFUL",FireAll PopulateCoresTurnInOptions,"The $PersonRank does a visible double take
+
+""...Is this an attempt to make ammends? Either way we will accept any AI cores you turn in, regardless of your... history.""",,
+AICoresTurnedIn_Friendly_KangCharter,AICoresTurnedIn,"$faction.id == kangcharter
+$faction.friendlyToPlayer",FireAll PopulateOptions,"""Once again proving yourself a valuable asset, $playerName. We appreciate you trusting us with this matter.""",,
+AICoresTurnedIn_Neutral_KangCharter,AICoresTurnedIn,"$faction.id == kangcharter
+",FireAll PopulateOptions,"""We appreciate you trusting us with this matter, other factions may not be as transparent about what they do with AI cores as they claim.""",,
+AICoresTurnedIn_Hostile_KangCharter,AICoresTurnedIn,"$faction.id == kangcharter
+$faction.rel == HOSTILE",FireAll PopulateOptions,"""We may have started out on the wrong foot here. Your contributions are acknowledged but don't think this erases your past actions.""",,
+AICoresTurnedIn_Vengeful_KangCharter,AICoresTurnedIn,"$faction.id == kangcharter
+$faction.rel == VENGEFUL",FireAll PopulateOptions,"""You know, you are going to need to give us a lot of these if you want us to stop shooting at you, your crimes are not exactly minor.""",,
+TradePanelFlavorText_KangCharter,TradePanelFlavorText,$faction.id == kangcharter,"AddText ""The market is the definition of ""low tech"", trading specialized components for big rugged machinery."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet0On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 0","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay empty warehouses, vandalized storage units and the occasional decrepit building etched into the wall. All covered in graffiti."" marketFlavorTextColor
+
+AddText ""No ships but yours are currently docked and the place looks like a ghost town, you can see a dead body on one of the landing pads and the constant noise of alarms drowns out any other noises."" marketFlavorTextColor
+
+AddText ""After a while a lone, disheveled customs officer approaches you. You can, somehow, still do business."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet1On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 1","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay empty warehouses, vandalized storage units and the occasional decrepit building etched into the wall. All lively with graffiti."" marketFlavorTextColor
+
+AddText ""No ships but yours are currently docked and the place looks like a ghost town, you can hear alarms blaring in the distance."" marketFlavorTextColor
+
+AddText ""After a while a customs officer flanked by 2 guards approaches you. You can still do business."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet2On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 2","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay mostly empty warehouses, vandalized storage units and the occasional run down building etched into the wall. There's a significant amount of graffiti on everything."" marketFlavorTextColor
+
+AddText ""Only a few ships besides yours are currently docked and the place looks like a ghost town, you can hear an alarm blaring in the distance."" marketFlavorTextColor
+
+AddText ""After a while a customs officer flanked by several guards approaches you. You can still do business."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet3On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 3","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay run down military equipment, damaged storage units and the occasional run down building etched into the wall."" marketFlavorTextColor
+
+AddText ""There's a graffiti and vandalism accross the station. Only a few ships besides yours are currently docked and the place looks like a ghost town."" marketFlavorTextColor
+
+AddText ""After a while a small batallion of guards approaches you. You can still do business."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet4On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 4","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay run down military equipment, empty storage units and the occasional run down reinforced building etched into the wall, all illuminated by damaged heavy duty lights."" marketFlavorTextColor
+
+AddText ""Currently the depot is lined with only a few civilian Charter ships, their crew unloading supplies and hyperspace fuel as they wait for the next batch of food, organics and various basic goods to arrive so they can launch once again into space."" marketFlavorTextColor
+
+AddText ""You see a small battalion of ships docked near the end of the depots, their crew inspecting everything and everyone that comes in and out of the depot."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet5On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 5","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay many types of military equipment, large storage units and the occasional small, reinforced building etched into the wall, all illuminated by heavy duty lights."" marketFlavorTextColor
+
+AddText ""Currently the depot is lined with civilian Charter ships, both old and new, their crew unloading supplies, hyperspace fuel and various specialized machinery as they wait for the next batch of food, organics and various basic goods to arrive so they can launch once again into space."" marketFlavorTextColor
+
+AddText ""You see a large battalion of ships docked near the end of the depots, their crew inspecting everything and everyone that comes in and out of the depot."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet6On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 6","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay many types of military equipment and transportation machnery, large storage units and the occasional small, reinforced building etched into the wall, all illuminated by heavy duty lights."" marketFlavorTextColor
+
+AddText ""Currently the depot is lined with civilian Charter ships, both old and new, their crew unloading supplies, hyperspace fuel and various specialized machinery as they wait for the next batch of food, organics and various basic goods to arrive so they can launch once again into space."" marketFlavorTextColor
+
+AddText ""You see a battalion of ships docked near the end of the depots, their crew inspecting everything and everyone that comes in and out of the depot."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet7On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 7","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay many types of low tech transportation machinery, large storage units and the occasional small building etched into the wall, all illuminated by heavy duty lights."" marketFlavorTextColor
+
+AddText ""Currently the depot is lined with civilian Charter ships, both old and new, their crew unloading supplies, hyperspace fuel and various specialized machinery as they wait for the next batch of food, organics and various basic goods to arrive so they can launch once again into space."" marketFlavorTextColor
+
+AddText ""You see a small battalion of military ships docked near the end of the depots, their crew inspecting the cargo of traders."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet8On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 8","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay many types of low tech transportation machinery, large storage units and the occasional small building etched into the wall, all illuminated by heavy duty lights."" marketFlavorTextColor
+
+AddText ""Currently the depot is lined with civilian Charter ships, both old and new, their crew unloading supplies, hyperspace fuel and various specialized machinery as they wait for the next batch of food, organics and various basic goods to arrive so they can launch once again into space."" marketFlavorTextColor
+
+AddText ""You see a small group of military ships docked near the end of the depots, their crew ocasionally inspecting the cargo of traders."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet9On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 9","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay many types of low tech transportation machinery, large storage units and the occasional small building etched into the wall, all illuminated by heavy duty lights."" marketFlavorTextColor
+
+AddText ""Currently the depot is lined with civilian Charter ships, both old and new, their crew unloading supplies, hyperspace fuel and various specialized machinery as they wait for the next batch of food, organics and various basic goods to arrive so they can launch once again into space."" marketFlavorTextColor
+
+AddText ""You see a small group of military ships near the far end of the depot, observing the place while waiting for their own share of supplies."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet10On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == true
+$stability == 10","AddText ""The trade depot is fairly utilitarian, lacking in decorations, furniture and even most of the usual holoprojectors that are always advertising something. In their place lay many types of low tech transportation machinery, large storage units and the occasional small building etched into the wall, all illuminated by heavy duty lights."" marketFlavorTextColor
+
+AddText ""Currently the depot is lined with civilian Charter ships, both old and new, their crew unloading supplies, hyperspace fuel and various specialized machinery as they wait for the next batch of food, organics and various basic goods to arrive so they can launch once again into space."" marketFlavorTextColor
+
+AddText ""You see a military ship near the far end of the depot, observing the place while waiting for its own share of supplies."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet0Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 0","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""The area is overrun with people fleeing the city, there are makeshift tents everywhere and trash collects near the roads, the military is nowhere to be seen."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet1Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 1","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""The place is swamped with regugees fleeing the city, the roads have abandoned military checkpoints and there is a large amount of tents nearby."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet2Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 2","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""The roads see constant activity as people migrate from the city, the military has set up checkpoints but they are clearly understaffed."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet3Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 3","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""You see convoys of people fleeing the city and regular military patrols."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet4Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 4","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""You see convoys of people fleeing the city and the ocasional military patrol."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet5Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 5","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""You see a few makeshift tents made by people fleeing the city and the ocasional military patrol."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet6Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 6","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""The local farmers definitely know you're an outsider but continue with their business nonetheless."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet7Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 7","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""The local farmers definitely know you're an outsider but continue with their business nonetheless."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet8Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 8","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""The local farmers definitely know you're an outsider but continue with their business nonetheless."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet9Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 9","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""The local farmers definitely know you're an outsider but continue with their business nonetheless."" marketFlavorTextColor",,,
+TradePanelFlavorText_KangPlanet10Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == kang_market
+$player.transponderOn == false
+$stability == 10","AddText ""You land in a sparsely populated area and prepare your rad suit for an unpleasant trek to the city."" marketFlavorTextColor
+
+AddText ""The few buildings here are small but well shielded and supplied, with the same considerations given to the heavy duty machinery. Most roads are simple dirt or gravel roads, the material densely compacted from years of heavy usage."" marketFlavorTextColor
+
+AddText ""The local farmers definitely know you're an outsider but continue with their business nonetheless."" marketFlavorTextColor",,,
+# Loke
+TradePanelFlavorText_LokePlanet0On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 0","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot... but the pad isn't working so you are forced to leave your ships exposed, the inside is empty save for graffiti, trash and it would be quiet if it weren't for the constant blaring of alarms."" marketFlavorTextColor
+
+AddText ""After a while a lone, disheveled customs officer approaches you. You can, somehow, still do business."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet1On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 1","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot... but the pad isn't working so you are forced to leave your ships exposed, the inside is empty save for graffiti, trash and it would be quiet if it weren't for the constant blaring of alarms."" marketFlavorTextColor
+
+AddText ""After a while a customs officer flanked by 2 guards approaches you. You can still do business."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet2On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 2","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot, the pad creaking and screeching as it descends, the inside is empty save for the ocsional graffiti, trash and it would be quiet if it weren't for the constant blaring of an alarm."" marketFlavorTextColor
+
+AddText ""After a while a customs officer flanked by several guards approaches you. You can still do business."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet3On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 3","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot, the pad creaking and screeching as it descends, the inside is empty and it would be quiet if it weren't for the constant blaring of an alarm."" marketFlavorTextColor
+
+AddText ""After a while a small batallion of guards approaches you. You can still do business."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet4On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 4","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot, there's worn down heavy duty mining and transportation equipment stationed here, while the ships are a mix of well used and pristine."" marketFlavorTextColor
+
+AddText ""The post is lively with traders exchanging basic resources for heavy equipment, you see a small group of military ships near the far end of the depot, doing random checks on travelers."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet5On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 5","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot, there's worn down heavy duty mining and transportation equipment stationed here, while the ships are a mix of well used and pristine."" marketFlavorTextColor
+
+AddText ""The post is lively with traders exchanging basic resources for heavy equipment, you see a large group of military ships near the far end of the depot, doing random checks on travelers."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet6On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 6","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot, there's worn down heavy duty mining and transportation equipment stationed here, while the ships are a mix of well used and pristine."" marketFlavorTextColor
+
+AddText ""The post is lively with traders exchanging basic resources for heavy equipment, you see a large group of military ships near the far end of the depot, doing random checks on travelers."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet7On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 7","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot, there's worn down heavy duty mining and transportation equipment stationed here, while the ships are a mix of well used and pristine."" marketFlavorTextColor
+
+AddText ""The post is lively with traders exchanging basic resources for heavy equipment, you see a group of military ships near the far end of the depot, doing random checks on travelers."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet8On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 8","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot, there's worn down heavy duty mining and transportation equipment stationed here, while the ships are a mix of well used and pristine."" marketFlavorTextColor
+
+AddText ""The post is lively with traders exchanging basic resources for heavy equipment, you see a small group of military ships near the far end of the depot, observing the place while waiting for its own share of supplies."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet9On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 9","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot, there's worn down heavy duty mining and transportation equipment stationed here, while the ships are a mix of well used and pristine."" marketFlavorTextColor
+
+AddText ""The post is lively with traders exchanging basic resources for heavy equipment, you see a military ship near the far end of the depot, observing the place while waiting for its own share of supplies."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet10On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability == 10","AddText ""The spaceport on Loke is the only major structure aboveground, the surface is nothing but a desolate wasteland as far as you can see."" marketFlavorTextColor
+
+AddText ""Your ships land on a pad that descends into a cavernous underground depot, there's worn down heavy duty mining and transportation equipment stationed here, while the ships are a mix of well used and pristine."" marketFlavorTextColor
+
+AddText ""The post is lively with traders exchanging basic resources for heavy equipment."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet0Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 0","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""The entrance is entirely devoid of people and equipment, you can hear alarms in the distance."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet1Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 1","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""The entrance is entirely devoid of people and equipment, you can hear alarms in the distance."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet2Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 2","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""The entrance is mostly devoid of people with there only being the ocasional shady individual, you can hear alarms in the distance."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet3Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 3","AddText ""Loke. 3 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet4Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 4","AddText ""Loke. 4 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet5Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 5","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""You see all kinds of excavation equipment throughout the entire journey to the nearest trade center, the path is seeing a lot of activity as oportunists are exploiting the current situation."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet6Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 6","AddText ""Loke. 6 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet7Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 7","AddText ""Loke. 7 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet8Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 8","AddText ""Loke. 8 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet9Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 9","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""You see all kinds of excavation equipment throughout the entire journey to the nearest trade center, clearly the extraction of materials Is not actually finished when government mining operations stop."" marketFlavorTextColor",,,
+TradePanelFlavorText_LokePlanet10Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == false
+$stability == 10","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""You see all kinds of excavation equipment throughout the entire journey to the nearest trade center, clearly the extraction of materials Is not actually finished when government mining operations stop."" marketFlavorTextColor",,,
+# Vurmun
+TradePanelFlavorText_VurmunPlanet0On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 0","AddText ""Malfunctioning lights and air"" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet1On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 1","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet2On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 2","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet3On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 3","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet4On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 4","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet5On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 5","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet6On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 6","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet7On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 7","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet8On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 8","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet9On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 9","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet10On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == true
+$stability == 10","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet0Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 0","AddText ""Vurmun. 0 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet1Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 1","AddText ""Vurmun. 1 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet2Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 2","AddText ""Vurmun. 2 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet3Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 3","AddText ""Vurmun. 3 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet4Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 4","AddText ""Vurmun. 4 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet5Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 5","AddText ""Vurmun. 5 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet6Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 6","AddText ""Vurmun. 6 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet7Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 7","AddText ""Vurmun. 7 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet8Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 8","AddText ""Vurmun. 8 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet9Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 9","AddText ""Vurmun. 9 Stab. Transponder off."" marketFlavorTextColor",,,
+TradePanelFlavorText_VurmunPlanet10Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == vurmun_market
+$player.transponderOn == false
+$stability == 10","AddText ""Vurmun. 10 Stab. Transponder off."" marketFlavorTextColor",,,
+# Helm
+TradePanelFlavorText_HelmPlanet0On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 0","AddText ""You signal the bases' port Authority but get no response, you decide to land anyway."" marketFlavorTextColor
+
+AddText ""The base is decrepid and non functional, the only person you see is a disheveled customs officer willing to trade with you."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet1On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 1","AddText ""You signal the bases' port Authority but get no response, you decide to land anyway."" marketFlavorTextColor
+
+AddText ""The base is decrepid and non functional, the only people you see is a disheveled customs flanked by two guards."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet2On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 2","AddText ""You signal the bases' port Authority but get no response, you decide to land anyway."" marketFlavorTextColor
+
+AddText ""The base is decrepid and non functional, the only people you see is a small batallion of guards willing to trade with you."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet3On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 3","AddText ""The bases' port Authority gives you permission to land, though you sense they aren't particularly thrilled about you being here."" marketFlavorTextColor
+
+AddText ""There are a few military ships transporting soldiers, heavy weapons and supplies to the site."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet4On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 4","AddText ""The bases' port Authority gives you permission to land, though you sense they aren't particularly thrilled about you being here."" marketFlavorTextColor
+
+AddText ""There are military ships transporting soldiers, heavy weapons and supplies on and off site."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet5On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 5","AddText ""The bases' port Authority gives you permission to land, though you sense they aren't particularly thrilled about you being here."" marketFlavorTextColor
+
+AddText ""There are several military ships and a few civilian ones transporting soldiers and heavy weapons off site."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet6On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 6","AddText ""The bases' port Authority gives you permission to land, and you do so without issue."" marketFlavorTextColor
+
+AddText ""There are a large amount of military ships and a few civilian ones transporting soldiers and heavy weapons off site."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet7On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 7","AddText ""The bases' port Authority gives you permission to land, and you do so without issue."" marketFlavorTextColor
+
+AddText ""There is a miux of civilian and military ships transporting soldiers and heavy weapons off site."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet8On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 8","AddText ""The bases' port Authority gives you permission to land, and you do so without issue."" marketFlavorTextColor
+
+AddText ""There are several civilian ships and a few military ones transporting soldiers and heavy weapons off site."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet9On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 9","AddText ""The bases' port Authority gives you permission to land, and you do so without issue."" marketFlavorTextColor
+
+AddText ""There are several civilian ships transporting soldiers and heavy weapons off site."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet10On,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == true
+$stability == 10","AddText ""The bases' port Authority gives you permission to land, and you do so without issue."" marketFlavorTextColor
+
+AddText ""There is a large amount of civilian ships transporting soldiers and heavy weapons off site."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet0Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 0","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""You pass by a sea of tents a good distance from the base."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet1Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 1","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""You pass by a a large amount of tents a good distance from the base."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet2Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 2","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""You pass by some tents a good distance from the base."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet3Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 3","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""You pass by a few tents a good distance from the base."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet4Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 4","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""The treck is entirely uneventful."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet5Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 5","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""The treck is entirely uneventful."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet6Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 6","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""The treck is entirely uneventful."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet7Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 7","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""The treck is entirely uneventful."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet8Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 8","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""The treck is entirely uneventful."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet9Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 9","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""The treck is entirely uneventful."" marketFlavorTextColor",,,
+TradePanelFlavorText_HelmPlanet10Off,TradePanelFlavorText,"$faction.id == kangcharter
+$market.id == helm_market
+$player.transponderOn == false
+$stability == 10","AddText ""You land a fair distance away from the civilization and prepare for a long treck on foot, if your intel is coorect there's a gap in the security of this side of the base."" marketFlavorTextColor
+
+AddText ""The treck is entirely uneventful."" marketFlavorTextColor",,,
+#Executor dialogue
+,,,,,,
+#Director dialogue
+Kang_Director_Bar_Encounter_Guard,DialogOptionSelected,"$faction.id == kangcharter
+$market.id == loke_market
+$player.transponderOn == true
+$stability >= 4
+$option == marketVisitBar
+!$faction.startedDirectorBarEvent","BeginConversation hal_nimun
+$faction.startedDirectorBarEvent = true","As you peruse around the bar some kind of officer approaches you, he's wearing a uniform you've seen the military use but with yellow engravings instead of the usual white.
+
+He stares you down and says: ""The Prime Economic Director has requested your presence. Effective immediately.""","Kang_Director_Bat_Encounter_Guard_Yes:""Uhh, Sure.""
+Kang_Director_Bat_Encounter_Guard_Who:""Who are you?""
+Kang_Director_Bat_Encounter_Guard_No1:""And if i refuse?""
+",
+Kang_Director_Bat_Encounter_Guard_Who,DialogOptionSelected,"$option == Kang_Director_Bat_Encounter_Guard_Who","RemoveOption Kang_Director_Bat_Encounter_Guard_Who","""I'm $personName, the Director's assigned Harbinger... I manage her security detachments."" He stares at you again. ""And I'm occasionally sent to bring in outsiders she has interest in.""",,
+Kang_Director_Bat_Encounter_Guard_No1,DialogOptionSelected,$option == Kang_Director_Bat_Encounter_Guard_No1,AdjustRepActivePerson -10,"The Harbinger looks annoyed, ""One of the leaders of our nation has summoned you, I am dragging you there one way or another.""
+
+""And don't think about trying to run, even if you get past the security detachment outside you won't be able to launch your $shipOrFleet whith the port doors closed."" He pauses for a second as if contemplating something.
+
+""and trying to blow them open will just cause a cave in.""","Kang_Director_bat_Encounter_Team:""You sent an entire team just for me?""",
+Kang_Director_bat_Encounter_Team_Standard,DialogOptionSelected,$option == Kang_Director_bat_Encounter_Team,,"""Outsiders tend to cause trouble.""
+
+""I am telling you about the doors for a reason.""","Kang_Director_Bat_Encounter_Guard_Yes:""Let's just go.""",
+Kang_Director_bat_Encounter_Team_Fleet,DialogOptionSelected,"$option == Kang_Director_bat_Encounter_Team
+$player.fleetPoints >= 120",,"""With a fleet like yours you think we are gonna treat you like you are some random smuggler?""","Kang_Director_Bat_Encounter_Guard_Yes:""Let's just go.""",
+Kang_Director_bat_Encounter_Team_Plant,DialogOptionSelected,"$option == Kang_Director_bat_Encounter_Team
+$player.numColonies > 0",,"""You own an entire planet and think we are gonna treat you like you are some random smuggler?""","Kang_Director_Bat_Encounter_Guard_Yes:""Let's just go.""",
+Kang_Director_bat_Encounter_Team_Story,DialogOptionSelected,"$option == Kang_Director_bat_Encounter_Team
+$global.gatesActive",,"""We know who you are, we know you've been causing havok on the core worlds for Galatia academy.""","Kang_Director_Bat_Encounter_Guard_Yes:""Let's just go.""",
+Kang_Director_Bat_Encounter_Guard_Yes,DialogOptionSelected,$option == Kang_Director_Bat_Encounter_Guard_Yes,ShowLargePlanet,"You follow $personName out of the bar and walk along the makeshift walkways and small tunnels that connect the different parts of Loke.
+
+You must have walked for a good twenty minutes in complete silence before arriving at one of the larger and more imposing buildings on the site.
+
+The Harbinger speedingly gets you past reception and into the Director's ofice.","Kang_Prime_Director_FirstEncounter:Continue",
+Kang_Prime_Director_FirstEncounter,DialogOptionSelected,$option == Kang_Prime_Director_FirstEncounter,BeginConversation ash_uker,"The room is fairly cluttered for an office, there's bookshelves filled with physical books you don't recognize, there's several potted plants, an entire bike on one of the walls and there's a vintage monitor and an actual physical map on the office's desk.
+
+A tall wonam quickly turns off her off-brand datapad and sits on the desks' chair. ""Ah, you must be $playerName!""","Kang_Prime_Director_FirstEncounterNice:""The Economic Director I presume?""
+Kang_Prime_Director_FirstEncounterSad:""Your guy forced me to be here.""",
+Kang_Prime_Director_FirstEncounterNice,DialogOptionSelected,$option == Kang_Prime_Director_FirstEncounterNice,,"%personName at your service. we've been looking for you."" She sits on her chair.",Kang_Prime_Director_FirstEncounter_2:Continue,
+Kang_Prime_Director_FirstEncounterSad,DialogOptionSelected,$option == Kang_Prime_Director_FirstEncounterSad,,"""Has he now? I apoligize if he was harsh, oportunitities like this are rare for us, you see."" She sits on her chair.","Kang_Prime_Director_FirstEncounter_2:Continue",
+Kang_Prime_Director_FirstEncounter_2,DialogOptionSelected,$option == Kang_Prime_Director_FirstEncounter_2,"SetPersonHidden ash_uker false
+AddPotentialContact ash_uker","""We don't get outsiders often, even less so independent individuals, so I sent Hal to bring you here while you were still available.
+
+You see, I want to construct a future for the Kang Charter, one where we don't suffer shortages of essential materials and one where our citizens are well protected against all threats."" You are getting somewhat distracted by the lively hand gestures she has begun doing.
+
+""Of course, you can't build up a nation on hopes and dreams, we need reliable trade routes so we can export our exesses and import materials we don't have here. We have some trade agreements with some of the minor factions but I need independent traders, those unmarred by the factional struggles, those who can be relied on no matter what happens with the mayor powers.
+
+This is where you come in."" she says with a grin on her face, ""Here's my contact information, I'll give you jobs for you to do whenever you call... and that's it. No long term commitments, pretty sweet deal, right?""","Kang_Prime_Director_FirstEncounterEnd1:""Sure""
+Kang_Prime_Director_FirstEncounterEnd2:""I'm not so sure about that.""",
+Kang_Prime_Director_FirstEncounterEnd1,DialogOptionSelected,$option == Kang_Prime_Director_FirstEncounterEnd1,"AdjustRepActivePerson 2
+EndConversation DO_NOT_FIRE","""Great! I knew I could count on you.""
+
+For now, I have kept you long enough, you should get back to your business.""
+
+You exit the room and are wordlessly escorted out of the building by the Harbinger.",defaultLeave:Leave,
+Kang_Prime_Director_FirstEncounterEnd2,DialogOptionSelected,$option == Kang_Prime_Director_FirstEncounterEnd2,EndConversation DO_NOT_FIRE,"""That's unfortunate. Well, the offer is still open if you change your mind later.
+
+I have kept you long enough, you should get back to your business.""
+
+You exit the room and are wordlessly escorted out of the building by the Harbinger.",defaultLeave:Leave,
+#Counselor dialogue
+Kang_Counselor_Bar_Encounter_Start,DialogOptionSelected,"$faction.id == kangcharter
+$market.id == vurmun_market
+$stability >= 6
+$option == marketVisitBar
+!$faction.startedCounselorBarEvent","BeginConversation zarek_yu
+$faction.startedCounselorBarEvent = true","You sit on one of the empty tables, as you evaluate the place a man in formal wear approaches you, ""$playerName, right?""","Kang_Counselor_Bar_Encounter_Yes:""Yes""
+Kang_Counselor_Bar_Encounter_No:""No""",
+Kang_Counselor_Bar_Encounter_Yes,DialogOptionSelected,$option == Kang_Counselor_Bar_Encounter_Yes,,"""I'm $personName, prime info guy, I'm here to personally pass you my contact details, you and me can benefit each other, and i think you can see that.""","Kang_Counselor_Bar_Encounter_EndGood:""Sounds good.""
+Kang_Counselor_Bar_Encounter_EndBad:""No thanks.""",
+Kang_Counselor_Bar_Encounter_No,DialogOptionSelected,$option == Kang_Counselor_Bar_Encounter_No,AdjustRepActivePerson -2,"""Real funny, $playerLastName.
+
+I'm $personName, Prime Intellicence Councelor. I'm here to personally pass you my contact details, you and me can benefit each other, and I think you can see that.""","Kang_Counselor_Bar_Encounter_EndGood:""Agreed.""
+Kang_Counselor_Bar_Encounter_EndBad:""Not interested.""",
+Kang_Counselor_Bar_Encounter_EndBad,DialogOptionSelected,$option == Kang_Counselor_Bar_Encounter_EndBad,"SetPersonHidden zarek_yu false
+AddPotentialContact zarek_yu
+EndConversation DO_NOT_FIRE","He slides you his contact details ""See you around"" he says as he leaves.",defaultLeave:Leave,
+Kang_Counselor_Bar_Encounter_EndGood,DialogOptionSelected,$option == Kang_Counselor_Bar_Encounter_EndGood,"AdjustRepActivePerson 1
+SetPersonHidden zarek_yu false
+AddPotentialContact zarek_yu
+EndConversation DO_NOT_FIRE","He slides you his contact details ""I think you and I will get along"" he says as he leaves.",defaultLeave:Leave,
+#Harbringer dialogue
+#Guide dialogue
+#Kang Locale
+,,,,"You take a shuttle down to the surface of Kang
+
+The magnetic field blocks your sensors on your way down, you wonder if this is going to be a problem but it clears by the time you reach the surface.",,
+,,,,"Before you lays the munment, the entrance reads",,
+,,,,Start,,
+,,,,TT,,
+,,,,Threat,,
+,,,,Misc,,
+#Loke Locale
+#Vurmun Locale
+#Helm Locale
+

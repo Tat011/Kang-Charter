@@ -1,0 +1,118 @@
+{
+	"name":"Reckless Kang Charter Officer",
+	"personalities":["reckless"],
+	"gender":["m","f","n"],
+	"chance":0.5,
+	"talkativeness":0.8,
+	"categoryTags":["original", "kangcharter"],
+
+	"lines":{
+		"start":[
+			{"text":"The hostiles are ready to die!"},
+			{"text":"Weapons loaded and resdy to fire!"},
+			{"text":"May the void give them no mercy!"},
+			{"text":"Incoming dwellers!"},
+			{"text":"Intercepting enemies!"},
+			{"text":"Starting combat protocols!"}
+		],
+		"start_boss":[
+			{"text":"Large dweller threat ready to die!"},
+			{"text":"Engaging hostile force."},
+			{"text":"Engaging enemy force!"},
+			{"text":"Intercepting dweller threat!"},
+			{"text":"Starting rendezvous of hostile threat."},
+			{"text":"We will prove ourselves worthy today!"}
+		],
+		"engaged":[
+			{"text":"Engaging!"},
+			{"text":"Firing!"},
+			{"text":"Locked on!"},
+			{"text":"Weapons free!"},
+			{"text":"Fire!"},
+			{"text":"Initiating combat!"}
+		],
+		"retreat":[
+			{"text":"Retreating!"},
+			{"text":"Disengaging!"},
+			{"text":"Evasive maneuvers!"},
+			{"text":"Moving off the fight!"},
+			{"text":"Distancing!"}
+		],
+		"out_of_missiles":[
+			{"text":"Missiles dry!"},
+			{"text":"Missiles out!"},
+			{"text":"Out of missiles!"},
+			{"text":"No more missiles!"},
+			{"text":"Missile racks empty!"}
+		],
+		"need_help":[
+			{"text":"Need assistance!"},
+			{"text":"Peel for us!"},
+			{"text":"They are pushing through!"},
+			{"text":"We are being hit hard!"},
+			{"text":"Enemies are winning here!"}
+		],
+		"pursuing":[
+			{"text":"Pursuing!"},
+			{"text":"Enemy on the retreat!"},
+			{"text":"Enemy is disengaging!"},
+			{"text":"Chasing!"},
+			{"text":"Enemy forces on the run!"}
+		],
+		"running":[
+			{"text":"Retreating now!"},
+			{"text":"Disengaging now!"},
+			{"text":"Evasive maneuvers!"},
+			{"text":"Move off!"},
+			{"text":"Full distancing!"}
+		],
+		"hull_90":[
+			{"text":"Armor down!"},
+			{"text":"Our hull is damaged!"},
+			{"text":"Systems hit!"},
+			{"text":"We have structural damage!"},
+			{"text":"Hull suffered damage!"}
+		],
+		"hull_50":[
+			{"text":"Hull severely hit!"},
+			{"text":"Ship stability down!"},
+			{"text":"We have significant damage!"},
+			{"text":"Vessel suffered mayor damage!"},
+			{"text":"Reporting mayor damage on vessel!"}
+		],
+		"hull_30":[
+		    {"text":"We are critical!"},
+		    {"text":"Ship is on the red!"},
+			{"text":"Ship systems can't take this much heat!"}
+		],
+		"overload":[
+			{"text":"We are fluxed out! Assistance!"},
+			{"text":"Ship is overloaded!"},
+			{"text":"Weapons disabled! Weapons disabled!"},
+			{"text":"Defensive systems down! Defensive systems down!"},
+			{"text":"Flux critical! Systems down!"}
+		],
+		"death":[
+			{"text":"I may have pushed too fa-"},
+			{"text":"Just a little mor-"},
+			{"text":"You are go-"},
+			{"text":"My brothers on Kang will-"},
+			{"text":"Ship critical! Enga-"},
+			{"text":"The light of Kang will prev-"}
+		],
+		"victory":[
+			{"text":"Enemies down!"},
+			{"text":"Dwellers dead!"},
+			{"text":"Victory for us!"},
+			{"text":"This day is ours!"},
+			{"text":"Full neutralization!"}
+		],
+		"victory_boss":[
+			{"text":"Threat down!"},
+			{"text":"Dweller threat dead!"},
+			{"text":"Victory!"},
+			{"text":"This day is ours!"},
+			{"text":"Full neutralization of threat!"}
+		]
+	}
+}

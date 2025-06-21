@@ -1,0 +1,12 @@
+{
+	"baseHullId":"mora",
+	"skinHullId":"mora_kang",
+	"hullName":"Mora (KC)",
+	"descriptionId":"mora",
+	"descriptionPrefix":"This hull has been built from the ground up by the Kang Charter.",
+	"tags":["kangcharter_bp"],
+	"tech":"L.D.S.C. (Low-Tech)",
+	"spriteName":"graphics/ships/mora_kang.png",
+	"builtInMods":["kang_doctrine", "insulatedengine", "distributed_fire_control"],
+	"systemId":"damper",
+}

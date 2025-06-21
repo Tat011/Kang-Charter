@@ -1,0 +1,42 @@
+{
+    "displayName": "Modular Offense",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "lasher_kang",
+    "hullMods": ["armoredweapons"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "lasher_kc_Offense",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "railgun",
+                "WS 003": "railgun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "annihilator",
+                "WS 004": "annihilator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "lightac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightmg",
+                "WS 006": "lightmg"
+            }
+        }
+    ]
+}

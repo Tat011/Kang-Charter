@@ -1,0 +1,120 @@
+{
+	"name":"Aggressive Kang Charter Officer",
+	"personalities":["aggressive"],
+	"gender":["m","f","n"],
+	"chance":0.6,
+	"talkativeness":0.9,
+	"categoryTags":["original", "kangcharter"],
+
+	"lines":{
+		"start":[
+			{"text":"Weapons loaded and ready to fire."},
+			{"text":"May the void give them no mercy."},
+			{"text":"Approaching dwellers."},
+			{"text":"Intercepting enemies."},
+			{"text":"Incoming dwellers."},
+			{"text":"Engaging combat protocols."}
+		],
+		"start_boss":[
+			{"text":"Large dweller threat incoming!"},
+			{"text":"Approaching hostile force!"},
+			{"text":"Engaging enemy force."},
+			{"text":"Incoming dweller threat!"},
+			{"text":"Starting rendezvous of hostile threat."},
+			{"text":"We prove ourselves today!"}
+		],
+		"engaged":[
+			{"text":"Engaging dwellers!"},
+			{"text":"Firing on hostiles!"},
+			{"text":"Locked on enemy!"},
+			{"text":"Weapons free!"},
+			{"text":"Fire at will!"},
+			{"text":"Initiating combat!"}
+		],
+		"retreat":[
+			{"text":"Retreating from fire!"},
+			{"text":"Disengaging from enemy!"},
+			{"text":"Starting evasive maneuvers!"},
+			{"text":"Moving off combat!"},
+			{"text":"Distancing from engagement!"}
+		],
+		"out_of_missiles":[
+			{"text":"Craft is missiles dry!"},
+			{"text":"Missiles out on this vessel!"},
+			{"text":"Ship is out of missiles!"},
+			{"text":"No more missiles on vessel!"},
+			{"text":"Missile racks empty on ship!"}
+		],
+		"need_help":[
+			{"text":"Assistance required!"},
+			{"text":"Peeling requested!"},
+			{"text":"Dwellers are pushing through!"},
+			{"text":"We are being pressured by the enemy!"},
+			{"text":"Enemy forces have the advantage here!"}
+		],
+		"pursuing":[
+			{"text":"Pursuing dwellers!"},
+			{"text":"Enemy on the retreat, pursuing!"},
+			{"text":"The enemy is disengaging, pressing on"},
+			{"text":"Chasing hostiles!"},
+			{"text":"Enemy forces on the run, securing victory!"}
+		],
+		"running":[
+			{"text":"Retreating fast!"},
+			{"text":"Disengaging fast!"},
+			{"text":"Starting full evasive maneuvers!"},
+			{"text":"Moving off combat!"},
+			{"text":"Distancing from engagement!"}
+		],
+		"hull_90":[
+			{"text":"Armor compromized!"},
+			{"text":"We are taking hull damage."},
+			{"text":"Ship systems hit!"},
+			{"text":"We have suffered structural damage!"},
+			{"text":"Hull suffered damage but is holding."}
+		],
+		"hull_50":[
+			{"text":"Hull severely compromized!"},
+			{"text":"Ship stability dropping!"},
+			{"text":"Significant damage on vessel!"},
+			{"text":"Vessel suffered mayor damage! Systems are holding for now."},
+			{"text":"Reporting mayor damage on vessel! Stability is maintained for now."}
+		],
+		"hull_30":[
+		    {"text":"Hull critical!"},
+		    {"text":"Ship critical!"},
+			{"text":"Damage critical!"},
+			{"text":"Critical damage!"},
+			{"text":"Ship systems can't take much more!"}
+		],
+		"overload":[
+			{"text":"Systems are fluxed out! Assistance required!"},
+			{"text":"Ship overloaded! Requesting cover!"},
+			{"text":"Weapons disabled! We are exposed!"},
+			{"text":"Defensive systems down! We are fluxed out!"},
+			{"text":"Flux at critical levels! Systems down!"}
+		],
+		"death":[
+			{"text":"Hull compromized! Syste-"},
+			{"text":"The void calls to us. I-"},
+			{"text":"You are go-"},
+			{"text":"My brothers on Kang will-"},
+			{"text":"Ship critical! Enga-"},
+			{"text":"The light of Kang will live o-"}
+		],
+		"victory":[
+			{"text":"Enemies neutralized!"},
+			{"text":"Dwellers down!"},
+			{"text":"Victory secured!"},
+			{"text":"The day is ours!"},
+			{"text":"Neutralization of hostiles complete!"}
+		],
+		"victory_boss":[
+			{"text":"Threat neutralized!"},
+			{"text":"Dweller threat down."},
+			{"text":"Victory for us!"},
+			{"text":"The day is ours!"},
+			{"text":"Neutralization of hostile threat complete!"}
+		]
+	}
+}

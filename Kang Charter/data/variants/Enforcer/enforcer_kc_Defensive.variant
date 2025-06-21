@@ -1,0 +1,34 @@
+{
+    "displayName": "Modular Defense",
+    "fluxCapacitors": 0,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "enforcer_kang",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "enforcer_kc_Defensive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "hveldriver",
+                "WS 002": "hveldriver",
+                "WS 003": "hveldriver",
+                "WS 004": "hveldriver",
+                "WS 005": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "sabot",
+                "WS 007": "sabot",
+                "WS 008": "sabot",
+                "WS 009": "sabot"
+            }
+        }
+    ]
+}

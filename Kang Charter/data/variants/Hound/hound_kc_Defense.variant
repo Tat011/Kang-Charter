@@ -1,0 +1,16 @@
+{
+    "displayName": "Modular Defense",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "hound_kang",
+    "hullMods": ["frontshield"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "hound_kc_Defense",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "hveldriver"}
+    }]
+}

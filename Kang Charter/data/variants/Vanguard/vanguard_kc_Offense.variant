@@ -1,0 +1,39 @@
+{
+    "displayName": "Modular Offense",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "vanguard_kang",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "vanguard_kc_Offense",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "lightneedler",
+                "WS 001": "lightneedler",
+                "WS 002": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightneedler",
+                "WS 006": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "mininglaser",
+                "WS 004": "mininglaser",
+                "WS 007": "mininglaser"
+            }
+        }
+    ]
+}

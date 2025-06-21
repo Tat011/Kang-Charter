@@ -1,0 +1,12 @@
+{
+	"baseHullId":"gryphon",
+	"skinHullId":"gryphon_kang",
+	"hullName":"Gryphon (KC)",
+	"descriptionId":"gryphon",
+	"descriptionPrefix":"This hull has been built from the ground up by the Kang Charter.",
+	"tags":["kangcharter_bp"],
+	"tech":"L.D.S.C. (Midline)",
+	"spriteName":"graphics/ships/gryphon_kang.png",
+	"builtInMods":["kang_doctrine", "insulatedengine", "distributed_fire_control"],
+	"systemId":"damper",
+}

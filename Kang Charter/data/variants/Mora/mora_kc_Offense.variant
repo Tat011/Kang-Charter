@@ -1,0 +1,39 @@
+{
+    "displayName": "Modular Offense",
+    "fluxCapacitors": 11,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "mora_kang",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "mora_kc_Offense",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 007": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 011": "lightdualmg",
+                "WS 012": "lightdualmg",
+                "WS 014": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "annihilatorpod",
+                "WS 004": "annihilatorpod"
+            }
+        }
+    ],
+    "wings": [
+        "piranha_wing",
+        "talon_wing",
+        "talon_wing"
+    ]
+}

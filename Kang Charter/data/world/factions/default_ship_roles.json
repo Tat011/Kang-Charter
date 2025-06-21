@@ -1,0 +1,146 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers. for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{#Frigates
+		"brawler_kc_Offense":2,
+		"brawler_kc_Support":2,
+
+		"centurion_kc_Offensive":2,
+		"centurion_kc_Support":2,
+
+		"tempest_kc_Support":2,
+		"tempest_kc_Armored":1,
+
+		"lasher_kc_Offense":2,
+		"lasher_kc_Support":2,
+
+		"vanguard_kc_Offense":2,
+		"vanguard_kc_Defense":2,
+	},
+
+	"combatSmall":{#Frigates
+		"brawler_kc_Offense":2,
+		"brawler_kc_Support":2,
+
+		"centurion_kc_Offensive":2,
+		"centurion_kc_Support":2,
+
+		"tempest_kc_Support":2,
+		"tempest_kc_Armored":1,
+
+		"lasher_kc_Offense":2,
+		"lasher_kc_Support":2,
+
+		"vanguard_kc_Offense":2,
+		"vanguard_kc_Defense":2,
+	},
+
+	"combatMedium":{#Destroyers
+		"enforcer_kc_Offensive":2,
+		"enforcer_kc_Defensive":2,
+
+		"hammerhead_kc_Offense":2,
+		"hammerhead_kc_Defense":2,
+		
+		"manticore_kc_Defense":2,
+		"manticore_kc_Offense":2,
+
+		"shrike_kc_Defense":2,
+		"shrike_kc_Offense":1,
+
+		"sunder_kc_Defense":2,
+		"sunder_kc_Offense":1,
+	},
+
+	"combatLarge":{#Cruisers
+		"apogee_kc_Offense":1,
+		"apogee_kc_Defense":2,
+		"apogee_kc_Support":1,
+
+		"dominator_kc_Offensive":2,
+		"dominator_kc_Defensive":1,
+		"dominator_kc_Support":2,
+
+		"falcon_kc_Offense":2,
+		"falcon_kc_Defense":2,
+		"falcon_kc_Support":1,
+
+		"eradicator_kc_Offensive":2,
+		"eradicator_kc_Support":2,
+
+		"champion_kc_Defensive":2,
+		"champion_kc_Offensive":2,
+
+		"gryphon_kc_Offense":2,
+		"gryphon_kc_Defense":2,
+	},
+
+	"combatCapital":{
+		"odyssey_Offense":1,
+	},
+
+	"combatFreighterSmall":{# hybrid ships with good combat and cargo capacity
+		"cerberus_kc_Defensive":2,
+
+		"hound_kc_Defense":2,
+		"hound_kc_Unstable":1,
+		"hound_kc_Support":2,
+
+		"shepherd_kc_Offense":1,
+	},
+
+	"combatFreighterMedium":{
+		"mule_kc_Unstable":1,
+		"mule_kc_Support":2,
+		"mule_kc_Defense":2,
+
+		"gemini_kc_Offense":2,
+	},
+
+	"combatFreighterLarge":{
+		"venture_kc_Offense":1,
+		"venture_kc_Defense":1,
+	},
+	
+	"civilianRandom":{
+		"shepherd_kc_Offense":1,
+
+		"venture_kc_Offense":1,
+		"venture_kc_Defense":1,
+
+		"gemini_kc_Offense":1,
+	},
+
+	"carrierSmall":{#Carriers
+		"shepherd_kc_Offense":2,
+
+		"condor_kc_Bomber":2,
+		"condor_kc_Fighter":2,
+		"condor_kc_Support":2,
+
+		"gemini_kc_Offense":2,
+	},
+
+	"carrierMedium":{
+		"mora_kc_Defense":1,
+		"mora_kc_Offense":2,
+		"mora_kc_Support":2,
+	},
+	"carrierLarge":{
+		"odyssey_Offense":1,
+	},
+
+	"phaseSmall":{# phase ships
+		"gremlin_kc_Defense":2,
+		"gremlin_kc_Unstable":2,
+	},
+
+	"phaseLarge":{
+		"grendel_kc_Assault":2,
+		"grendel_kc_Support":2,
+	},
+
+	"freighterMedium":{
+		"apogee_kc_Defense":2,
+		"apogee_kc_Support":2,
+	},
+}

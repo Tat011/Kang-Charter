@@ -1,0 +1,12 @@
+{
+	"baseHullId":"odyssey",
+	"skinHullId":"odyssey_kang",
+	"hullName":"Odyssey (KC)",
+	"descriptionId":"odyssey",
+	"descriptionPrefix":"This hull has been built from the ground up by the Kang Charter.",
+	"tags":["kangcharter_bp"],
+	"tech":"L.D.S.C. (High Tech)",
+	"spriteName":"graphics/ships/odyssey_kang.png",
+	"builtInMods":["kang_doctrine", "insulatedengine", "distributed_fire_control"],
+	"systemId":"damper",
+}

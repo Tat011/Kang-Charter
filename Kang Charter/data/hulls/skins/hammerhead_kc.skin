@@ -1,0 +1,12 @@
+{
+	"baseHullId":"hammerhead",
+	"skinHullId":"hammerhead_kang",
+	"hullName":"Hammerhead (KC)",
+	"descriptionId":"hammerhead",
+	"descriptionPrefix":"This hull has been built from the ground up by the Kang Charter.",
+	"tags":["kangcharter_bp"],
+	"tech":"L.D.S.C. (Midline)",
+	"spriteName":"graphics/ships/hammerhead_kang.png",
+	"builtInMods":["kang_doctrine", "insulatedengine", "distributed_fire_control"],
+	"systemId":"damper",
+}

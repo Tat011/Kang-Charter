@@ -1,0 +1,12 @@
+{
+	"baseHullId":"shrike",
+	"skinHullId":"shrike_kang",
+	"hullName":"Shrike (KC)",
+	"descriptionId":"shrike",
+	"descriptionPrefix":"This hull has been built from the ground up by the Kang Charter.",
+	"tags":["kangcharter_bp"],
+	"tech":"L.D.S.C. (High-Tech)",
+	"spriteName":"graphics/ships/shrike_kang.png",
+	"builtInMods":["kang_doctrine", "insulatedengine", "distributed_fire_control"],
+	"systemId":"damper",
+}

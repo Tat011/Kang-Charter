@@ -1,0 +1,17 @@
+{
+	"ranks":{
+      "Kang_Elder_Military":{"name":"Prime Military Harbinger"},
+      "Kang_Elder_Economy":{"name":"Prime Economic Director"},
+      "Kang_Elder_Research":{"name":"Prime Research Guide"},
+      "Kang_Elder_Intelligence":{"name":"Prime Intelligence Counselor"},
+      "Kang_Elder_Judiciary":{"name":"Prime Judiciary Executor"}
+	},
+	
+	"posts":{
+      "Kang_Elder_Military":{"name":"Prime Military Harbinger"},
+      "Kang_Elder_Economy":{"name":"Prime Economic Director"},
+      "Kang_Elder_Research":{"name":"Prime Research Guide"},
+      "Kang_Elder_Intelligence":{"name":"Prime Intelligence Counselor"},
+      "Kang_Elder_Judiciary":{"name":"Prime Judiciary Executor"}
+	}
+}

@@ -1,0 +1,35 @@
+{
+    "displayName": "Modular Offense",
+    "fluxCapacitors": 0,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "enforcer_kang",
+    "hullMods": ["converted_hangar"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "enforcer_kc_Offensive",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "hveldriver",
+                "WS 002": "hveldriver",
+                "WS 003": "hveldriver",
+                "WS 004": "hveldriver",
+                "WS 005": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "harpoon",
+                "WS 007": "harpoon",
+                "WS 008": "harpoon",
+                "WS 009": "harpoon"
+            }
+        }
+    ],
+    "wings": ["talon_wing"]
+}

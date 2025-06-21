@@ -1,0 +1,43 @@
+{
+    "displayName": "Modular Support",
+    "fluxCapacitors": 2,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "mora_kang",
+    "hullMods": ["expanded_deck_crew"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "mora_kc_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 008": "vulcan"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "sabotpod",
+                "WS 004": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 007": "lightdualmg",
+                "WS 011": "lightdualmg",
+                "WS 012": "lightdualmg",
+                "WS 014": "lightdualmg"
+            }
+        }
+    ],
+    "wings": [
+        "claw_wing",
+        "claw_wing",
+        "claw_wing"
+    ]
+}

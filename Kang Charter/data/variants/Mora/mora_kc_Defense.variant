@@ -1,0 +1,40 @@
+{
+    "displayName": "Modular Defense",
+    "fluxCapacitors": 5,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "mora_kang",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "expanded_deck_crew"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "mora_kc_Defense",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightdualmg",
+                "WS 008": "lightdualmg",
+                "WS 011": "lightdualmg",
+                "WS 012": "lightdualmg",
+                "WS 014": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "sabotpod",
+                "WS 004": "sabotpod"
+            }
+        }
+    ],
+    "wings": [
+        "wasp_wing",
+        "wasp_wing",
+        "wasp_wing"
+    ]
+}

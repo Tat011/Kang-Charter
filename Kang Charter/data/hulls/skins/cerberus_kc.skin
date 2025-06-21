@@ -1,0 +1,12 @@
+{
+	"baseHullId":"cerberus",
+	"skinHullId":"cerberus_kang",
+	"hullName":"Cerberus (KC)",
+	"descriptionId":"cerberus",
+	"descriptionPrefix":"This hull has been built from the ground up by the Kang Charter.",
+	"tags":["kangcharter_bp"],
+	"tech":"L.D.S.C. (Low-Tech)",
+	"spriteName":"graphics/ships/cerberus_kang.png",
+	"builtInMods":["kang_doctrine", "insulatedengine", "distributed_fire_control"],
+	"systemId":"damper",
+}

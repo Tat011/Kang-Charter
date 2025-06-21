@@ -1,0 +1,510 @@
+{
+  id: "kangchartermil",
+
+  "color": [125,0,0,255], #For stations on map & fleet circle
+  "baseUIColor": [130,0,0,255], # Important text, UI
+  "darkUIColor": [25,25,25,175],  # Secondary UI
+  "gridUIColor": [200,0,0,75],   #Inventory grid
+  "secondaryUIColor": [255,255,255,255],  #Fleet circle 2?
+  "secondarySegments": 4,
+
+  "displayName": "Kang Charter Military Department",
+  "displayNameWithArticle": "the Kang Charter Military Department",
+  "displayNameLong": "Sovereign Kang Charter of Orion's Military Department",
+  "displayNameLongWithArticle": "the Sovereign Kang Charter of Orion's Military Department",
+  "personNamePrefixAOrAn": "a",
+  "displayNameIsOrAre": "is",
+  "shipNamePrefix": "KANG M",
+  "internalComms": "KangCharter_internal",
+
+  "showInIntelTab":false,
+
+  "shipNameSources": {
+    "GENERAL": 1,
+    "SPACE": 1,
+    "NORSE": 2,
+    "BEASTS": 3,
+    "ROMAN": 2,
+    "EGYPTIAN": 3
+  },
+  "names": {
+    "fringe": 1,
+    "world": 1
+  },
+
+  "tariffFraction":0.2,
+
+  "custom": {
+		"decentralized":false,
+		"no_contacts":false,
+    "ignoreTradeWithEnemiesForReputation":true,
+		"exemptFromFoodShortages":false,
+		"allowsTransponderOffTrade":false,
+		"caresAboutAtrocities":true,
+
+		"willTradeWhenHostile":false,
+		"offerMissionsWhenHostile":false,
+
+		"engageWhenEvenStrength":false,
+
+    "engagesInHostilities": false,
+    "hostilityImpactOnGrowth": true,
+
+		"postsNoBounties":true,
+    "offersCommissions": false,
+    "buysAICores": true,
+    "AICoreValueMult": 1,
+    "AICoreRepMult": 3,
+    "buysSurveyData": true,
+
+    "punitiveExpeditionData": {
+      "vsCompetitors": false,
+      "vsFreePort": false,
+      "canBombard": false,
+      "territorial": false,
+    },
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+  },
+
+  "illegalCommodities": [
+		"organs",
+    "hand_weapons",
+    "blueprints",
+		"ai_cores",
+  ],
+
+  "factionDoctrine": {
+    "warships": 5,
+    "carriers": 1,
+    "phaseShips": 1,
+
+    "officerQuality": 1,
+    "shipQuality": 1,
+    "numShips": 5,
+
+    "shipSize": 5,
+    "aggression": 2,
+
+    "combatFreighterProbability": 0,     				    # instead of some portion of the freighters in a fleet
+    "combatFreighterCombatUseFraction": 0,  				# as part of the normal combat lineup
+    "combatFreighterCombatUseFractionWhenPriority": 0,   # as part of normal combat lineup, when marked as priority ship
+    "autofitRandomizeProbability": 0.2,
+
+    "commanderSkillsShuffleProbability": 0.3333,
+    "commanderSkills": [
+      "combat_endurance",
+      "impact_mitigation",
+      "damage_control",
+			"ballistic_mastery",
+			"polarized_armor"
+    ],
+  },
+
+  "logo": "graphics/factions/Kang_Military_2.png",
+  "crest": "graphics/factions/Kang_Cube.png",
+  "portraits": {
+    "standard_male": [
+      "graphics/portraits/portrait_luddic04.png",
+      "graphics/portraits/portrait_luddic06.png",
+      "graphics/portraits/portrait_mercenary04.png",
+      "graphics/portraits/portrait_pirate11.png",
+      "graphics/portraits/portrait_pirate14.png",
+      "graphics/portraits/portrait20.png",
+      "graphics/portraits/portrait30.png",
+      "graphics/portraits/portrait33.png",
+      "graphics/portraits/portrait40.png",
+      "graphics/portraits/portrait47.png",
+      "graphics/portraits/portrait48.png",
+      "graphics/portraits/portrait49.png",
+    ],
+    "standard_female": [
+      "graphics/portraits/portrait_luddic11.png",
+      "graphics/portraits/portrait_luddic16.png",
+      "graphics/portraits/portrait_pirate08.png",
+      "graphics/portraits/portrait_pirate09.png",
+      "graphics/portraits/portrait_pirate17.png",
+      "graphics/portraits/portrait14.png",
+      "graphics/portraits/portrait21.png",
+      "graphics/portraits/portrait29.png",
+      "graphics/portraits/portrait39.png",
+      "graphics/portraits/portrait42.png",
+      "graphics/portraits/portrait47.png",
+      "graphics/portraits/portrait49.png",
+    ],
+  },
+
+  # variantOverrides restricts hulls to listed variants and adjusts their probability
+  "variantOverrides": {
+  },
+
+  # multiplier for how often hulls show up in the faction's fleets
+  "hullFrequency": {
+    "tags": {
+    },
+    "hulls": {
+      "ox":0.7,
+      "crig":0.7,
+
+      "buffalo_pirates":0.7,
+      "colossus":0.7,
+      "atlas":0.7,
+      "dram":0.7,
+      "phaeton":0.7,
+      "prometheus":0.7,
+
+      "cerberus_kang":1,
+      "lasher_kang":1,
+      "vanguard_kang":1,
+      "brawler_kang":0.75,
+      "centurion_kang":0.75,
+      "tempest_kang":0.75,
+
+      "buffalo2":1,
+      "enforcer_kang":1,
+      "manticore_kang":1,
+      "mule_kang":1,
+      "sunder_kang":0.75,
+      "hammerhead_kang":0.75,
+      "shrike_kang":0.75,
+
+      "dominator_kang":1,
+      "eradicator_kang":1,
+      "champion_kang":0.75,
+      "gryphon_kang":0.75,
+      "falcon_kang":0.75,
+      "apogee_kang":0.75,
+
+      "atlas2":1,
+      "prometheus2":1,
+      "odyssey_kang":0.8,
+
+      "shepherd_kang":1.25,
+      "condor_kang":1,
+      "gemini_kang":1,
+      "colossus2":0.75,
+      "colossus3":0.75,
+      "venture_kang":1.25,
+      "mora_kang":1,
+
+      "gremlin_kang":1,
+      "grendel_kang":1
+    },
+  },
+
+  # ships the faction gets access to when importing S&W out-of-faction
+  "shipsWhenImporting": {
+    "tags": [],
+    "hulls": [#Import only version!
+      "ox",
+      "crig",
+
+      "buffalo_pirates",
+      "colossus",
+      "atlas",
+      "dram",
+      "phaeton",
+      "prometheus",
+
+      "cerberus_d_pirates",
+      "lasher",
+      "vanguard_pirates",
+
+      "buffalo2",
+      "enforcer",
+      "manticore",
+      "mule_d_pirates",
+
+      "eradicator",
+      "champion",
+      "falcon_p",
+
+      "atlas2",
+      "prometheus2",
+
+      "shepherd",
+      "condor",
+      "colossus2",
+      "colossus3",
+      "venture",
+      "venture_p",
+      "venture_pather",
+      "mora",
+
+      "gremlin_d_pirates",
+      "grendel"
+    ],
+  },
+
+  "knownShips": {
+    "tags": [],
+    "hulls": [
+      "ox",   #Logistics
+      "crig",
+
+      "buffalo_pirates", #Storage
+      "colossus",
+      "atlas",
+      "dram", #Tankers
+      "phaeton",
+      "prometheus",
+
+      "cerberus_kang", #Frigates
+      "lasher_kang",
+      "vanguard_kang",
+      "brawler_kang", #2 Midlines
+      "centurion_kang", #Has native Damper Field, Give makeshift shields
+      "tempest_kang", #1 High Tech
+
+      "buffalo2",
+      "enforcer_kang", #Destroyers
+      "manticore_kang",
+      "mule_kang",
+      "sunder_kang", #2 Midlines
+      "hammerhead_kang",
+      "shrike_kang", #1 High Tech
+
+      "dominator_kang", #Cruisers
+      "eradicator_kang", #Ugly ass ship, i hate it
+      "champion_kang", #2(3) Midlines. There uhhh, aren't enough low tech ships
+      "gryphon_kang",
+      "falcon_kang",
+      "apogee_kang", #1 High Tech
+
+      "atlas2", #Capitals. I hate the invictus and i can't give damper field to retribution
+      "prometheus2",
+      "odyssey_kang",
+
+      "shepherd_kang", #Frigate Carrier
+      "condor_kang",  #Destroyer Carrier
+      "gemini_kang",  #Destroyer Midline Carrier freighter
+      "colossus2", #Not a Carrier lol
+      "colossus3", #Cruiser Carrier
+      "venture_kang", #Cruiser Carrier
+      "mora_kang", #Cruiser Carrier
+
+      "gremlin_kang", #Phase
+      "grendel_kang"
+    ],
+  },
+
+  # listing ships here will make the faction mostly use them even if other hulls become available
+  "priorityShips": {
+    "tags": [],
+    "hulls": [#The effect is too strong to generate varied fleets while using it from what i tested
+    ],
+  },
+  "knownFighters": {
+		"tags":[],
+    "fighters": [
+      "broadsword_wing",
+      "hoplon_wing",
+      "piranha_wing",
+      "sarissa_wing",
+      "warthog_wing"
+    ],
+  },
+
+  "priorityFighters": {
+		"tags":[],
+    "fighters": [
+    ],
+  },
+
+  "knownWeapons": {
+    "tags": [],
+    "weapons": [
+      "vulcan",
+      "lightneedler",
+      "lightmortar",
+      "lightmg",
+      "lightdualmg",
+      "lightag",
+
+      "arbalest",
+      "chaingun",
+      "flak",
+      "dualflak",
+      "heavyac",
+      "heavymg",
+      "heavymauler",
+      "heavymortar",
+      "heavyneedler",
+      "shredder",
+
+      "devastator",
+      "hellbore",
+      "hephag",
+      "multineedler",
+
+      "pdlaser",
+      "irpulse",
+      "pulselaser",
+      "autopulse",
+
+      "reaper",
+      "sabot",
+      "typhoon",
+      "sabotpod",
+      "cyclone",
+      "hurricane",
+    ],
+  },
+
+  "priorityWeapons": {
+    "tags": [],
+    "weapons": [
+      "vulcan",
+      "arbalest",
+      "hellbore",
+    ],
+  },
+
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[
+    "militarized_subsystems",
+    "hardened_subsystems",
+    "efficiency_overhaul",
+    "hiressensors",
+
+    "recovery_shuttles",
+    "blast_doors",
+
+    "frontshield",#Makshift shield
+    "fluxbreakers",#EMP resistance
+    "autorepair",
+    "armoredweapons",
+    "insulatedengine",
+    "heavyarmor",
+    "reinforcedhull",
+
+    "ballistic_rangefinder",
+    "targetingunit",
+    "dedicated_targeting_core",
+    "magazines",
+    "expanded_deck_crew",
+  ],
+  },
+
+	"music":{
+		"theme":"music_pirates_market_neutral",
+		"market_neutral":"music_pirates_market_neutral",
+		"market_hostile":"music_pirates_market_hostile",
+		"market_friendly":"music_pirates_market_friendly",
+		"encounter_neutral":"music_pirates_encounter_neutral",
+		"encounter_hostile":"music_pirates_encounter_hostile",
+		"encounter_friendly":"music_pirates_encounter_friendly",
+	},
+
+	"voices":{
+		"LOW":{
+			"scientist":2,
+			"faithful":5,
+			"spacer":5,
+			"soldier":4,
+		},
+		"MEDIUM":{
+			"scientist":2,
+			"faithful":5,
+			"spacer":4,
+			"soldier":5,
+			"official":5,
+		},
+		"HIGH":{
+			"scientist":2,
+			"faithful":4,
+			"spacer":5,
+			"soldier":5,
+			"official":5,
+			"business":5,
+		},
+	},	
+
+  "ranks": {
+    "ranks": {#Military rank. We'll make it goverement rank
+      "Kang_Elder_Military":{"name":"Prime Military Harbinger"},
+      "Kang_Elder_Economy":{"name":"Prime Economic Director"},
+      "Kang_Elder_Research":{"name":"Prime Research Guide"},
+      "Kang_Elder_Intelligence":{"name":"Prime Intelligence Counselor"},
+      "Kang_Elder_Judiciary":{"name":"Prime Judiciary Executor"},
+
+		  "spaceLieutenant":{"name":"Aux Military Harbinger"},
+      "spaceCommander": {"name": "Military Harbinger"},
+		  "spaceCaptain":{"name":"Sub Military Harbinger"},
+      "spaceAdmiral":{"name":"Amp Military Harbinger"},
+		  "spaceMarshal":{"name":"Arch Military Harbinger"},
+
+		  "groundPrivate":{"name":"Private Planetary Harbinger"},
+		  "groundSergeant":{"name":"Aux Planetary Harbinger"},
+		  "groundCaptain":{"name":"Sub Planetary Harbinger"},
+		  "groundLieutenant":{"name":"Sub Planetary Harbinger"},
+		  "groundMajor":{"name":"Planetary Harbinger"},
+		  "groundColonel":{"name":"Amp Planetary Harbinger"},
+		  "groundGeneral":{"name":"Arch Planetary Harbinger"},
+
+			"baseCommander":{"name":"Arch Military Harbinger"},
+	  	"stationCommander":{"name":"Amp Military Harbinger"},
+	  	"outpostCommander":{"name":"Sub Military Harbinger"},
+
+			"portmaster":{"name":"Aux Military Harbinger"},
+
+			"supplyOfficer":{"name":"Sub Economic Director"}, # Quartermaster
+		  "supplyManager":{"name":"Amp Economic Director"},
+
+			"administrator":{"name":"Arch Economic Director"},
+
+		  "citizen":{"name":"Charter Citizen"},
+		  "agent":{"name":"Aux Intelligence Counselor"},
+		  "specialAgent":{"name":"Sub Intelligence Counselor"},
+    },
+    "posts": {#Colony/Ship roles
+      "Kang_Elder_Military":{"name":"Prime Military Harbinger"},
+      "Kang_Elder_Economy":{"name":"Prime Economic Director"},
+      "Kang_Elder_Research":{"name":"Prime Research Guide"},
+      "Kang_Elder_Intelligence":{"name":"Prime Intelligence Counselor"},
+      "Kang_Elder_Judiciary":{"name":"Prime Judiciary Executor"},
+
+      "patrolCommander": {"name": "Patrol Military Director"},
+      "fleetCommander": {"name": "Fleet Military Director"},
+
+			"baseCommander":{"name":"Base Harbinger"},
+	  	"stationCommander":{"name":"Station Harbinger"},
+	  	"outpostCommander":{"name":"Outpost Harbinger"},
+
+			"portmaster":{"name":"Port Harbinger"},
+
+			"supplyOfficer":{"name":"Economic Officer"}, # Quartermaster
+		  "supplyManager":{"name":"Economic Manager"},
+
+			"administrator":{"name":"Economic Administrator"},
+		  "freeAdmin":{"name":"Freelance Economic Administrator"},
+
+		  "citizen":{"name":"Charter Citizen"},
+		  "agent":{"name":"Aux Intelligence Agent"},
+		  "specialAgent":{"name":"Sub Intelligence Agent"},
+    },
+  },
+
+  "fleetTypeNames": {
+    "smallTrader": "Sub Exchange Convoy",
+    "trade": "Exchange Convoy",
+    "tradeLiner": "Amp Exchange Convoy",
+    "tradeSmuggler": "Un-Exchange Convoy",
+    "foodReliefFleet": "Aux Emergency Convoy",
+
+    "patrolSmall": "Sub Enforcer Convoy",
+    "patrolMedium": "Enforcer Convoy",
+    "patrolLarge": "Amp Enforcer Convoy",
+
+    "inspectionFleet": "Intelligence Convoy",
+    "taskForce": "Executor Convoy",
+
+		"mercScout":"Mercenary Aux Enforcer Convoy",
+		"mercBountyHunter":"Mercenary Bounty Hunter Convoy",
+		"mercPrivateer":"Mercenary Privateer Convoy",
+		"mercPatrol":"Mercenary Enforcer Convoy",
+		"mercArmada":"Mercenary Executor Convoy",
+  },
+},

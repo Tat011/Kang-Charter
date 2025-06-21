@@ -1,0 +1,26 @@
+{
+        "defaultChannels":[
+                "kangcharter_public",
+        ],
+
+        "kangcharter_public":{
+		"name":"Kang Charter public notice",
+		"logo":"graphics/da/icons/intel/Kang_Cube.png",
+		"icon":"graphics/da/icons/intel/Kang_Cube.png",
+		"image":"graphics/da/factions/Kang_Flag.png",
+		"sound":"ui_channel_news",
+		"faction":"kangcharter",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"kangcharter_internal":{
+		"name":"Kang Charter intelligence report",
+		"logo":"graphics/da/icons/intel/Kang_Cube.png",
+		"icon":"graphics/da/icons/intel/Kang_Cube.png",
+		"image":"graphics/da/factions/Kang_Flag.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"kangcharter",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}

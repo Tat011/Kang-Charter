@@ -1,0 +1,12 @@
+{
+	"baseHullId":"centurion",
+	"skinHullId":"centurion_kang",
+	"hullName":"Centurion (KC)",
+	"descriptionId":"centurion",
+	"descriptionPrefix":"This hull has been built from the ground up by the Kang Charter.",
+	"tags":["kangcharter_bp"],
+	"tech":"L.D.S.C. (Midline)",
+	"spriteName":"graphics/ships/centurion_kang.png",
+	"builtInMods":["kang_doctrine", "insulatedengine", "distributed_fire_control"],
+	"systemId":"damper",
+}

@@ -1,0 +1,7 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Kang Engine Maintenance,kangcrewspeed,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.kangcrewspeed,"The Kang Charter's crew have developed several techniques that, in conjunction, increase teh efficiency of an engine assembly.
+
+Increases maximum burn of the ship by % and maneuverability by %s.",Increases maximum burn of the ship by % and maneuverability by %s.,graphics/hullmods/augmented_engines.png
+Kang Modular Doctrine,kang_doctrine,,,,,,,,TRUE,,0,0,0,0,data.hullmods.kang_doctrine,"The Kang Charter's doctrine for ship construction involves simplified systems and modular assembly, this results in increased durability as broken pieces can be easily removed and replaced but those same pieces are more likely to suffer long term damage in the case of critical ship failure.
+
+-%s CR degradation rate, almost always recoverable, -%s D-Mod effect, +%s chance of getting new D-Mods.","-%s CR degradation rate, almost always recoverable, -%s D-Mod effect, +%s of getting new D-Mods.",graphics/factions/Kang_Cube.png

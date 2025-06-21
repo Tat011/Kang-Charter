@@ -1,0 +1,58 @@
+id,type,text1,text2,text3,text4,notes,
+#Faction
+kangcharter,FACTION,"Not much is known about the Kang Charter on account of its extreme isolation from the rest of the sector, subject to myth and legend, the only way to find out more is to confront them directly.",,,,,
+#Planet KANG
+norlem_star,CUSTOM,"The remains of an ancient star, Norlem shines with its leftover power from when it underwent fusion.
+
+One of the few propper stars in the abyss.",,,,,
+kang_planet_description,CUSTOM,"A true abyssal oddity, Kang is a habitable, resource rich world on a dead star.
+
+The conditions here have pushed the biosphere in a very different evolutionary path, creating highly resistant species that are not keen on ceding ground to outsiders.
+
+The Kang Charter initially established themselves here before expanding further into the system.",,"Despite the hostile surface conditions, civilization on Kang has rapidly grown on its surface.
+
+Most of it is centered on the city of Walern, a city that looks more like a space station and is in a constant flux of renovations and expansions to better accommodate its hardened population.
+
+Outside the city lay the farmers who have to deal with the brunt of Kang's Biosphere and radiation, a job that is grueling but well paid as the entire polity depends on their production.
+
+Even further lay only the wild expanse, populated only with strange creatures and the occasional hermit.
+
+Being the only habitable planet of the Charter, it's the closest thing to its capital, officials deny such claims, stating that all colonies have an equally important role, yet those same politicians seem to prefer this planet over the others.",,,
+#Planet LOKE
+loke_planet_description,CUSTOM,"Loke is a resource rich planet that is constantly bombarded by meteorites from the nearby asteroid belt.
+
+One can only imagine what the surface was like before Norlem collapsed, as any evidence has been defaced by constant impacts.
+
+The Kang Charter settled this planet after determining it the best spot to build spacecraft from scratch.",,"Metallurgy thrives under Loke's battered surface, ores are mined, refined and assembled with the speed and efficiency of a single assembly line.
+
+Infrastructure is carved into the caverns created by all the mining which makes the populated areas perilous to navigate, whether that's from tight passages or large caverns one can fall into.
+
+Mirroring Kang, the population here is divided into those who work at mining in the fringes and those who live in the urbanized areas, though not nearly as centralized as its sibling planet.
+
+As the heart of heavy industry of the Charter, Loke is indispensable for the continued operations of the polity and the center of trade and the economy as a whole.",,,
+#Planet VURMUN
+vurmun_planet_description,CUSTOM,"This extreme, semi-frozen gas giant experiences violent storms as a result of intense temperature fluctuations in the different layers of its atmosphere.
+
+While the outer layers are extremely cold, deep within Vurmun temperatures have been recorded to increase exponentially, making scientists think that this planet is capable of low level fusion.
+
+It is the primary source of volatiles of the Kang Charter, who have established a multitude of facilities to facilitate its extraction and refinement.",,"The giant of Norlem, Vurmun contains a large amount of volatiles and other rare gasses the Kang Charter is more than willing to extract, with several small stations being placed in orbits designed to maximize surface coverage.
+
+Possibly to incentivize people to move here, the stations are surprisingly spacious. The intentionally spotty agrav coverage has given the engineers freedom to build in any direction, making the station resemble those of pre-Domain architecture you see in historical holos.
+
+Due to its nature as a station colony and being in (relatively) sparsely traversed space, almost everyone who lives here works in either volatile extraction, fuel refinement, research or in supporting the aforementioned roles.",,,
+#Moon VURMINE
+vurmine_planet_description,CUSTOM,"With conditions comparable to old Venus, this moon is considered too hostile for permanent colonization even to the Kang Charter.
+
+The crushing pressure, turbulent weather and dangerous chemicals rapidly erode anything that reaches its surface.",,"Your sensors are unable to pierce through the atmosphere of Vurmine, you think it may be best to not risk your exploration drones considering what you do know about the planet.",,,
+#Moon HELM
+helm_planet_description,CUSTOM,"A planet whose crust is made of pure desolate ice, Helm sports distinct seasons as the atmosphere itself freezes on winter and only fully thaws out on summer.
+
+Despite the lack of standard ground this is the base of operations of the Kang Charter military and of what passes for its science department.",,"Encrusted In the ice lies a large military garrison, sticking out of the environment like a Tri-Tachyon trader on a luddite port. The installation is currently experiencing snowfall of various gasses, but it's entirely undisturbed by this as it's natural heat emissions warm the snow enough for it to sublimate.
+
+The base itself is surprisingly well built, you see a shooting range, a runway, various large satelites, a large communications tower, a large spaceport and what certainly looks like planetary batteries.
+
+It doesn't take a scan to tell it goes deep underground, the level of activity here is much larger than the garrison's surface area suggests.",,,
+#Planet URGAL
+urgal_planet_description,CUSTOM,"Urgal is a hycean ice giant, which has a water cycle composed of various common gases that rain down when exposed to the planet's cold atmosphere and evaporate when near the core's warmth.
+
+This process, however, only occurs when the planet is sufficiently close to Norlem, otherwise coming to a complete standstill.",,"Your sensors detect a turbulent ocean beneath the atmosphere. Any colonization effort would require significant orbital infrastructure.",,,

@@ -1,0 +1,30 @@
+{
+    "displayName": "Modular Bomber",
+    "fluxCapacitors": 6,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "condor_kang",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "condor_kc_Bomber",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "mininglaser",
+                "WS 002": "mininglaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "pilum"}
+        }
+    ],
+    "wings": [
+        "piranha_wing",
+        "piranha_wing"
+    ]
+}
