@@ -3,7 +3,7 @@
 	"name":"Kang Charter",
 	"author":"Tat011",
 	"version":"0.8",
-	"description":"Not much is known about the Kang Charter on account of its extreme isolation from the rest of the sector, subject to myth and legend, it is rumored to have formed from the remains of warlord Loke's forces. they are not keen on outsiders.",
+	"description":"Not much is known about the Kang Charter on account of its extreme isolation from the rest of the sector, subject to myth and legend, the only way to find out more is to confront them directly.",
     "gameVersion":"0.98a-RC7",
     "jars":["jars/Kang Charter.jar"],
 	"modPlugin":"data.scripts.kangcharter_modPlugin"
