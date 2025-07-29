@@ -169,7 +169,7 @@ public class Norlem {
 		system.addEntity(jumpPoint1);
 
 		// Loke Planet
-		PlanetAPI norlem2 = system.addPlanet("loke_planet", star, "Loke", "barren-bombarded", 0, 140, 2200, 120);
+		PlanetAPI norlem2 = system.addPlanet("loke_planet", star, "Loke", "barren-bombarded", 0, 140, 2250, 120);
 		norlem2.getSpec().setTilt(-8);
 		norlem2.setCustomDescriptionId("loke_planet_description");
 		norlem2.setInteractionImage("illustrations", "mine");
@@ -290,7 +290,7 @@ public class Norlem {
 		system.addRingBand(star, "misc", "rings_dust0", 256f, 0, Color.white, 256f, 3100, 160f, null, null);
 
 //Vurmun Planet
-		PlanetAPI norlem3 = system.addPlanet("vurmun_planet", star, "Vurmun", "gas_giant", 0, 340, 5100, 240);
+		PlanetAPI norlem3 = system.addPlanet("vurmun_planet", star, "Vurmun", "gas_giant", 0, 340, 5050, 240);
 		norlem3.getSpec().setPlanetColor(new Color(255,170,255,255));
 		norlem3.getSpec().setAtmosphereColor(new Color(145,75,160,140));
 		norlem3.getSpec().setCloudColor(new Color(200,165,255,200));
@@ -319,7 +319,7 @@ public class Norlem {
         norlem3.getMarket().addCondition(Conditions.HIGH_GRAVITY);
         norlem3.getMarket().addCondition(Conditions.EXTREME_WEATHER);
         norlem3.getMarket().addCondition(Conditions.DENSE_ATMOSPHERE);
-        norlem3.getMarket().addCondition(Conditions.VERY_COLD);
+        norlem3.getMarket().addCondition(Conditions.COLD);
         norlem3.getMarket().addCondition(Conditions.DARK);
 
         norlem3.getMarket().addCondition(Conditions.VOLATILES_PLENTIFUL);
@@ -416,7 +416,7 @@ public class Norlem {
 		norlem4.applySpecChanges();
 		norlem4.setCustomDescriptionId("urgal_planet_description");
 
-        norlem3.getMarket().addCondition(Conditions.HIGH_GRAVITY);
+        norlem4.getMarket().addCondition(Conditions.HIGH_GRAVITY);
 		norlem4.getMarket().addCondition(Conditions.WATER_SURFACE);
 		norlem4.getMarket().addCondition(Conditions.DENSE_ATMOSPHERE);
 		norlem4.getMarket().addCondition(Conditions.EXTREME_WEATHER);

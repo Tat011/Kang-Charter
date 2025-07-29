@@ -695,29 +695,39 @@ AddText ""The entrance is mostly devoid of people with there only being the ocas
 TradePanelFlavorText_LokePlanet3Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == loke_market
 $player.transponderOn == false
-$stability == 3","AddText ""Loke. 3 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 3","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""The path is seeing some activity as a few determined oportunists are exploiting the current instability."" marketFlavorTextColor",,,
 TradePanelFlavorText_LokePlanet4Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == loke_market
 $player.transponderOn == false
-$stability == 4","AddText ""Loke. 4 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 4","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""You see some excavation equipment throughout the entire journey to the nearest trade center, the path is seeing activity as oportunists are exploiting the current instability."" marketFlavorTextColor",,,
 TradePanelFlavorText_LokePlanet5Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == loke_market
 $player.transponderOn == false
 $stability == 5","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
 
-AddText ""You see all kinds of excavation equipment throughout the entire journey to the nearest trade center, the path is seeing a lot of activity as oportunists are exploiting the current situation."" marketFlavorTextColor",,,
+AddText ""You see some excavation equipment throughout the entire journey to the nearest trade center, the path is seeing a lot of activity as oportunists are exploiting the current instability."" marketFlavorTextColor",,,
 TradePanelFlavorText_LokePlanet6Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == loke_market
 $player.transponderOn == false
-$stability == 6","AddText ""Loke. 6 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 6","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""You see some excavation equipment throughout the entire journey to the nearest trade center, the path is seeing activity as a oportunists take the long trip to avoid tariffs."" marketFlavorTextColor",,,
 TradePanelFlavorText_LokePlanet7Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == loke_market
 $player.transponderOn == false
-$stability == 7","AddText ""Loke. 7 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 7","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""You see all kinds of excavation equipment throughout the entire journey to the nearest trade center, the path is seeing some activity as a few determined oportunists take the long trip to avoid tariffs."" marketFlavorTextColor",,,
 TradePanelFlavorText_LokePlanet8Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == loke_market
 $player.transponderOn == false
-$stability == 8","AddText ""Loke. 8 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 8","AddText ""You land on a desolate part of the planet, where you have been tipped off there's an alternate entrance big enough to ferry a sizable amount of goods. Designed for and used by smugglers and other shady individuals, it certainly has seen its fair share of use."" marketFlavorTextColor
+
+AddText ""You see all kinds of excavation equipment throughout the entire journey to the nearest trade center, clearly the extraction of materials Is not actually finished when government mining operations stop."" marketFlavorTextColor",,,
 TradePanelFlavorText_LokePlanet9Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == loke_market
 $player.transponderOn == false
@@ -734,91 +744,113 @@ AddText ""You see all kinds of excavation equipment throughout the entire journe
 TradePanelFlavorText_VurmunPlanet0On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 0","AddText ""Malfunctioning lights and air"" marketFlavorTextColor",,,
+$stability == 0","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port is empty aside from a single customs official. As you dock you notice the lack of electricity and the constant blaring of alarms"" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet1On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 1","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 1","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port is empty aside from a few customs officials. As you dock you notice the frequent power loss and the constant blaring of an alarm"" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet2On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 2","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 2","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port has a few trader ships fueling up while offloading supplies and machinery."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet3On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 3","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 3","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port has a few trader ships fueling up while offloading supplies and machinery."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet4On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 4","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 4","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port is busy with trader ships fueling up while offloading supplies and machinery, there's also a small amount of military ships refueling as they travel to and from Helm."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet5On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 5","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 5","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port is very busy with trader ships fueling up while offloading supplies and machinery, there's also a large amount of military ships refueling as they travel to and from Helm."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet6On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 6","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 6","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port is very busy with trader ships fueling up while offloading supplies and machinery, there's also a decent amount of military ships refueling as they travel to and from Helm."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet7On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 7","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 7","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port is very busy with trader ships fueling up while offloading supplies and machinery, there's also a small amount of military ships refueling as they travel to and from Helm."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet8On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 8","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 8","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port is very busy with trader ships fueling up while offloading supplies and machinery, as you pass by you see a small exploration fleet preparing for interstellar travel."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet9On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 9","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 9","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port is very busy with trader ships fueling up while offloading supplies and machinery, as you pass by you see an exploration fleet preparing for interstellar travel."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet10On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == true
-$stability == 10","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor",,,
+$stability == 10","AddText ""The station is lined with atmo rated spacecraft designed to dive into the giant's atmosphere and return with vast amounts of filtered volatiles."" marketFlavorTextColor
+
+AddText ""The port is very busy with trader ships fueling up while offloading supplies and machinery, as you pass by you see a large exploration fleet preparing for interstellar travel."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet0Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 0","AddText ""Vurmun. 0 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 0","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet1Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 1","AddText ""Vurmun. 1 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 1","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet2Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 2","AddText ""Vurmun. 2 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 2","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet3Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 3","AddText ""Vurmun. 3 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 3","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet4Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 4","AddText ""Vurmun. 4 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 4","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet5Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 5","AddText ""Vurmun. 5 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 5","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet6Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 6","AddText ""Vurmun. 6 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 6","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet7Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 7","AddText ""Vurmun. 7 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 7","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet8Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 8","AddText ""Vurmun. 8 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 8","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet9Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 9","AddText ""Vurmun. 9 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 9","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 TradePanelFlavorText_VurmunPlanet10Off,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == vurmun_market
 $player.transponderOn == false
-$stability == 10","AddText ""Vurmun. 10 Stab. Transponder off."" marketFlavorTextColor",,,
+$stability == 10","AddText ""You leave your fleet a good distance away from the station and take a shuttle to an unused side entrance."" marketFlavorTextColor",,,
 # Helm
 TradePanelFlavorText_HelmPlanet0On,TradePanelFlavorText,"$faction.id == kangcharter
 $market.id == helm_market
@@ -989,7 +1021,7 @@ You must have walked for a good twenty minutes in complete silence before arrivi
 The Harbinger speedingly gets you past reception and into the Director's ofice.","Kang_Prime_Director_FirstEncounter:Continue",
 Kang_Prime_Director_FirstEncounter,DialogOptionSelected,$option == Kang_Prime_Director_FirstEncounter,BeginConversation ash_uker,"The room is fairly cluttered for an office, there's bookshelves filled with physical books you don't recognize, there's several potted plants, an entire bike on one of the walls and there's a vintage monitor and an actual physical map on the office's desk.
 
-A tall wonam quickly turns off her off-brand datapad and sits on the desks' chair. ""Ah, you must be $playerName!""","Kang_Prime_Director_FirstEncounterNice:""The Economic Director I presume?""
+A woman quickly turns off her off-brand datapad and sits on the desks' chair. ""Ah, you must be $playerName!""","Kang_Prime_Director_FirstEncounterNice:""The Economic Director I presume?""
 Kang_Prime_Director_FirstEncounterSad:""Your guy forced me to be here.""",
 Kang_Prime_Director_FirstEncounterNice,DialogOptionSelected,$option == Kang_Prime_Director_FirstEncounterNice,,"%personName at your service. we've been looking for you."" She sits on her chair.",Kang_Prime_Director_FirstEncounter_2:Continue,
 Kang_Prime_Director_FirstEncounterSad,DialogOptionSelected,$option == Kang_Prime_Director_FirstEncounterSad,,"""Has he now? I apoligize if he was harsh, oportunitities like this are rare for us, you see."" She sits on her chair.","Kang_Prime_Director_FirstEncounter_2:Continue",
@@ -1029,23 +1061,156 @@ I'm $personName, Prime Intellicence Councelor. I'm here to personally pass you m
 Kang_Counselor_Bar_Encounter_EndBad:""Not interested.""",
 Kang_Counselor_Bar_Encounter_EndBad,DialogOptionSelected,$option == Kang_Counselor_Bar_Encounter_EndBad,"SetPersonHidden zarek_yu false
 AddPotentialContact zarek_yu
-EndConversation DO_NOT_FIRE","He slides you his contact details ""See you around"" he says as he leaves.",defaultLeave:Leave,
+EndConversation DO_NOT_FIRE","He slides you his contact details ""See you around."" he says as he leaves.",defaultLeave:Leave,
 Kang_Counselor_Bar_Encounter_EndGood,DialogOptionSelected,$option == Kang_Counselor_Bar_Encounter_EndGood,"AdjustRepActivePerson 1
 SetPersonHidden zarek_yu false
 AddPotentialContact zarek_yu
-EndConversation DO_NOT_FIRE","He slides you his contact details ""I think you and I will get along"" he says as he leaves.",defaultLeave:Leave,
+EndConversation DO_NOT_FIRE","He slides you his contact details ""I think you and I will get along."" he says as he leaves.",defaultLeave:Leave,
 #Harbringer dialogue
+,,,,,,
 #Guide dialogue
+,,,,,,
 #Kang Locale
-,,,,"You take a shuttle down to the surface of Kang
+Kang_Monument_Populate,PopulateOptions,"$market.id == kang_market
+$player.transponderOn == true
+$stability >= 4
+!$market.playerHostileTimeoutStr
+$faction.rel != INHOSPITABLE
+$faction.rel != HOSTILE
+$faction.rel != VENGEFUL",,,Kang_Monument_Start:Visit monument,
+Kang_Monument_Start,DialogOptionSelected,$option == Kang_Monument_Start,ShowLargePlanet,"You take a shuttle down to the surface of Kang, its magnetic field blocking your sensors as you delve into its atmosphere.
 
-The magnetic field blocks your sensors on your way down, you wonder if this is going to be a problem but it clears by the time you reach the surface.",,
-,,,,"Before you lays the munment, the entrance reads",,
-,,,,Start,,
-,,,,TT,,
-,,,,Threat,,
-,,,,Misc,,
+As you pass thorugh the cloud layer you begin to wonder how Kang ships traverse these conditions on the regular.
+
+You land on the spaceport at the outskirts of the city of Walern, unllike the main port, this one sees little traffic and you quickly pass through without issue.
+
+The journey to the monument is fairly uneventful as you don't see many people in this part of the city.",Kang_Monument_Gate:Continue,
+Kang_Monument_Gate,DialogOptionSelected,$option == Kang_Monument_Gate,,"You arrive at the entrance of the monument, that has a plaque which reads ""Here we enshrine the great sacrifices that made this nation possible, let this monument act as an anchor by which to reminisce on these pivotal events and people.""
+
+Even from the outside you notice that alien plants grow wild within the monument, trees, vines, bushes all coexist with the tombstones here, with small animals taking shelter within.",Kang_Monument_Main:Enter,
+Kang_Monument_Main1,DialogOptionSelected,"$option == Kang_Monument_Main
+!$visitedKangMon",$visitedKangMon = true,"The path diverges into several sections.
+On the leftmost path there is a mural depicting a large fleet leaving a confrontation between a smaller fleet and an amorphous mass.
+""Those who sacrificed themselves during the initial journey to hold back the abyss.""
+
+There is a path with a mural depicting a fleet of low tech and pirate ships fighting against hight tech ships over kang.
+""Those who perished during the siege of Kang, defending our independence.""
+
+There is a path with a mural depicting heavy batteries firing at a swarm of small ships.
+""Those who perished during the machine assaults, protecting our people.""
+
+The rightmost path with a mural depicting the Kang Charter emblem.
+""Those who did not perish in time of great need, they are nonetheless of equal importance.""","Kang_Monument_NPC_Greet:Continue",
+Kang_Monument_NPC_Greet1,DialogOptionSelected,"$option == Kang_Monument_NPC_Greet",$visitedKangMon = true,"A woman who was paying respects to the leftmost wing approaches you. ""You are not from here, are you looking for something? I can answer questions if you need it.""","Kang_Monument_NPC_Yourself:Who are you?
+Kang_Monument_NPC_Monument:What is this place?
+Kang_Monument_NPC_Journey:What does the first panel represent?
+Kang_Monument_NPC_Siege:What does the second panel represent?
+Kang_Monument_NPC_Threat:What does the third panel represent?
+Kang_Monument_NPC_Other:What does the fourth panel represent?
+Kang_Monument_Leave:Leave",
+Kang_Monument_NPC_Greet2,DialogOptionSelected,"$option == Kang_Monument_NPC_Greet
+$visitedKangMon",,"A woman who was paying respects to one of the wings approaches you. ""Hello again, do you need something?""",,
+Kang_Monument_NPC_Yourself,DialogOptionSelected,$option == Kang_Monument_NPC_Yourself,"RemoveOption Kang_Monument_NPC_Yourself","""I'm the caretaker of this monument... Well, one of them"" She chuckles to herself ""This monument is too big for one person.
+
+I try to be helpful to newcomers too, someone has to answer their questions, you know?""",,
+Kang_Monument_NPC_Monument,DialogOptionSelected,$option == Kang_Monument_NPC_Monument,RemoveOption Kang_Monument_NPC_Monument,"""This monument is a cementery for those who have died serving the Charter. Immortalising them is very important to our culture, a reminder of the effort it took for us to get here.
+
+We'll even ship you here if you die on another planet.""",,
+Kang_Monument_NPC_Plants,DialogOptionSelected,$option == Kang_Monument_NPC_Plants,RemoveOption Kang_Monument_NPC_Plants,"""Death doesn't have to be the full end for you, we can still use you to create something new, and with that you get to live on as a component of something else.
+
+It certainly beats rotting in a box, does it not?""",,
+Kang_Monument_NPC_Journey,DialogOptionSelected,$option == Kang_Monument_NPC_Journey,"RemoveOption Kang_Monument_NPC_Journey","""When our founders fled the sector, they encountered... something. we aren't sure what, but it hunted them down, and it would have killed them all if a few brave souls didn't offer themselves as a distraction.
+
+We haven't really seen them since, I mean, spacers will claim to have encountered them, but they are probably lying.""",,
+Kang_Monument_NPC_Siege,DialogOptionSelected,$option == Kang_Monument_NPC_Siege,"RemoveOption Kang_Monument_NPC_Siege","""Those psychos at Tri-Tachyon, they gave us funding and resources at first, then when we were a little established but not too established they shut all Tri-Tech off and attempted to take over Kang.
+
+If it wasn't for our brave soldiers and help from our allies, well...
+
+Never again we will deal with those demons, they are truly lost to Mammon.""",,
+Kang_Monument_NPC_Threat,DialogOptionSelected,$option == Kang_Monument_NPC_Threat,"RemoveOption Kang_Monument_NPC_Threat","""Our presence here has attracted some kind of machine, nothing like we've seen before. No transponder, no signature emmissions, no ai cores, does nothing but destroy and assimilate, the perfect embodiment of Moloch.
+
+Word of advise, if you ever hear the Helm distress signal, stay in range of our heavy batteries.""",,
+Kang_Monument_NPC_Other,DialogOptionSelected,$option == Kang_Monument_NPC_Other,"RemoveOption Kang_Monument_NPC_Other","""This isn't about glorifying our heroes, we value those who lived perfectly average lives too, they are just as important as those who make history.
+
+Every person carries an entire world inside them, and that world is extinguished when they die a tragedy we must never make light of.""",,
+Kang_Monument_Leave,DialogOptionSelected,$option == Kang_Monument_Leave,,"The caretaker does a small bow as you leave.
+
+You are still not used to passing through the magnetic field but the ascent proceeds without issue.",defaultLeave:Leave,
 #Loke Locale
+Loke_Monument_Populate,PopulateOptions,$market.id == loke_marketUNUSED,,,,
+Loke_Monument_Intro,DialogOptionSelected,$option == Loke_Monument_Intro,,"You take a shuttle down to the surface of Loke, the many craters of its battered surface visible to the naked eye.
+you are given permission to land and descend elevator
+there are many ships scattered around a large opening
+Some are hanging from the roof or walls, some are resting on the cave floor
+",Loke_Monument_Intro:Visit scrapyard.,
 #Vurmun Locale
+Vurmun_Monument_Intro,DialogOptionSelected,$option == Vurmun_Monument_Intro,,You take a shuttle ,,
 #Helm Locale
+Helm_Monument_Populate,PopulateOptions,"$market.id == helm_market
+$player.transponderOn == true
+$stability >= 5
+!$market.playerHostileTimeoutStr
+$faction.rel != INHOSPITABLE
+$faction.rel != HOSTILE
+$faction.rel != VENGEFUL",,,Helm_Monument_Intro:Visit the Cryosleeper,
+Helm_Monument_Intro,DialogOptionSelected,$option == Helm_Monument_Intro,ShowLargePlanet,"You take a shuttle down to the surface of Helm, the snowy surface reflecting what little light reaches it.
 
+The Cryosleeper is located on the outskirts of the instalation, partially covered on a pile of snow.",Helm_Monument_Greeting:Continue,
+Helm_Monument_Greeting1,DialogOptionSelected,"$option == Helm_Monument_Greeting",$visitedHelmShip = true,"Despite the size of the ship, the insides feel both cramped and empty, filled with empty pods, shelves and containers.
+
+The notable exeption to this is the main cryosleep bay, which is filled with rows upon rows of pods carrying passengers as far as the eye can see.
+
+A man that was inspecting the machinery notices and approaches you ""Oh, Hi! I wasn't expecting visitors today!""","Helm_Monument_Who:Who are you?
+Helm_Monument_Where:Where was this ship found?
+Helm_Monument_People:What is going to happen to these people?
+Helm_Monument_Equip:Is there any other equipment around here?
+Helm_Monument_Leave:Leave",
+Helm_Monument_Greeting2,DialogOptionSelected,"$option == Helm_Monument_Greeting
+$visitedHelmShip",,"Despite the size of the ship, the insides feel both cramped and empty, filled with empty pods, shelves and containers.
+
+The notable exeption to this is the main cryosleep bay, which is filled with rows upon rows of pods carrying passengers as far as the eye can see.
+
+A man that was inspecting the machinery notices and approaches you ""Welcome back! Need anything from me?""","Helm_Monument_Who:Who are you?
+Helm_Monument_Where:Where was this ship found?
+Helm_Monument_People:What is going to happen to these people?
+Helm_Monument_Equip:Is there any other equipment around here?
+Helm_Monument_Leave:Leave",
+Helm_Monument_Who,DialogOptionSelected,$option == Helm_Monument_Who,"RemoveOption Helm_Monument_Who","""I'm the person in charge of monitoring these pods, you know, making sure they are all functioning as they should and making sure no one does anything they shouldn't""",,
+Helm_Monument_Where,DialogOptionSelected,$option == Helm_Monument_Where,RemoveOption Helm_Monument_Where,"""This Cryosleeper was found on the depths of the abyss and  through a large concerted efort was hauled here through abyssal hyperspace.
+
+Ships like these aren't designed to land on planets so we had to tow it down and the landing was a bit rough... but hey! its easier to access and defend now.
+
+Finding this thing was a pretty big moment for us, not only were there lots of passengers who are being slowly awakened but also a synchorron core and a nanoforge which where immediately moved to Vurmun and Loke respectively to be used.""",,
+Helm_Monument_People,DialogOptionSelected,$option == Helm_Monument_People,RemoveOption Helm_Monument_People,"""Well the plan is to wake them all up, since if we don't no one will, but we only have the capacity to do it a few at a time so it'll take actual cycles before we get everyone.""",,
+Helm_Monument_Equip,DialogOptionSelected,$option == Helm_Monument_Equip,RemoveOption Helm_Monument_Equip,"""By now everything that isn't deeply integrated into the ship or required for it to run has been removed.""
+
+He looks down at the floor.
+
+""You are a spacer, you know how it is.""",,
+Helm_Monument_Leave,DialogOptionSelected,$option == Helm_Monument_Leave,,"The caretaker waves at you as you leave.
+
+Your return to your ship is entirely uneventful.",defaultLeave:Leave,
+#Urgal Surface
+Urgal_Monument_Populate,PopulateOptions,"$id == urgal_planet
+!$visitedUrgalMon",,,"Urgal_Monument_Intro:Take a shuttle to the ""surface"".",
+Urgal_Monument_Intro,DialogOptionSelected,$option == Urgal_Monument_Intro,ShowLargePlanet,"Your sensors officer seems hesitant, but shows you a section of the planet with relatively clear skies.
+
+The descent into Urgal is turbulent, as you pass through the cloud layer, wind shakes your craft and some kind of vapour clouds all your viewports.
+
+You consider aborting the expedition but you break through soon enough, revealing a swirling blue ocean that spans as far as the eye can see.
+
+The shuttle slows and splashes down on the liquid surface, waves rock the ship around but your chief engineer assures you that it won't damage the shuttle.",Urgal_Monument_Trip:Continue,
+Urgal_Monument_Trip,DialogOptionSelected,$option == Urgal_Monument_Trip,,"As your team takes measurements of the local environment, your sensors officer radios you from orbit, ""there's something unusual about these readings.""
+You look at your sensors and see faint readings corresponding to ship engine emmissions.
+You move your craft towards the source of the emmissions and sure enough, there is a ship there.
+A Remnant capital, navigating the ocean like a boat, engines firing on all cilinders. It’s hull corroded and decayed.",Urgal_Monument_Approach:Approach,
+Urgal_Monument_Approach,DialogOptionSelected,$option == Urgal_Monument_Approach,,"You approach the ship but stop when its guns spring to life and point at you
+everything stands still for a moment until you recieve a garbled transmission
+""...supplies…ritical...""","Urgal_Monument_Contact:Give supplies
+defaultLeave:Leave",
+Urgal_Monument_Contact,DialogOptionSelected,$option == Urgal_Monument_Contact,"RemoveCommodity supplies 25
+AddCommodity survey_data_1 1
+$visitedUrgalMon = true","""Thank...ou…""
+You recieve a transmission containing a scan of Urgal's waters before the ship shuts off.",defaultLeave:Leave,
+#Zunya Glamor-Rotanev
+Rotanev_Kang,DialogOptionSelected,$option == Urgal_Monument_ContactUNUSED,,"""You are commissioned by the Kang Charter."" The way she says that name radiates contempt, ""Know that their time on this sector is limited, and when that time comes i trust that you will know to stand aside,""",,
